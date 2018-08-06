@@ -20,10 +20,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js">
+    </script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,8 +35,96 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./style.css">
+    <style>
+        body,
+        .jumbotron {
+            margin-bottom: 0 !important;
+        }
 
+        body {
+            background-color: #23272A;
+            margin: 0px;
+        }
+
+        .jumbotron {
+            background-image: url('https://cdn.glitch.com/66dd6990-2a1c-4c45-b317-c2cfddb9d3a1%2Fbg.jpg?1531786259229');
+            background-attachment: fixed;
+            min-height: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .card {
+            background-color: #23272A;
+        }
+
+        .custom-select,
+        .form-control,
+        .form-control:focus,
+        .form-control:disabled {
+            background-color: #23272A;
+            border-color: #23272A;
+        }
+
+        .fancy {
+            line-height: 0.5;
+            text-align: center;
+        }
+
+        .fancy span {
+            display: inline-block;
+            position: relative;
+        }
+
+        .fancy span:before,
+        .fancy span:after {
+            content: "";
+            position: absolute;
+            height: 5px;
+            border-bottom: 1px solid white;
+            max-width: 50%;
+            top: 0;
+            width: 600px;
+        }
+
+        .fancy span:before {
+            right: 100%;
+            margin-right: 15px;
+        }
+
+        .fancy span:after {
+            left: 100%;
+            margin-left: 15px;
+        }
+
+        /* width */
+
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        /* Track */
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+
+        ::-webkit-scrollbar-thumb {
+            background: #99aab5;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7289da;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,8 +147,7 @@
                     </font>
                 </div>
                 <p class="text-muted">
-                    <font size="-2"><b>Created By <img border="0" alt="PlexiDev" src="https://cdn.glitch.com/66dd6990-2a1c-4c45-b317-c2cfddb9d3a1%2Flogo.png?1531786262347" width="50" height="50">
-              Plexi Development</b></font>
+                    <font size="-2"><b>Created By <img border="0" alt="PlexiDev" src="https://cdn.glitch.com/66dd6990-2a1c-4c45-b317-c2cfddb9d3a1%2Flogo.png?1531786262347" width="50" height="50"> Plexi Development</b></font>
                 </p>
             </div>
         </div>
