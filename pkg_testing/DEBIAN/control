@@ -4,7 +4,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Description: This is a debug package for the Plexi Development repository.
 Depiction: https://plexidevrepo.glitch.me/
-Homepage: https://plexidev.org
+Homepage: https://plexidevrepo.glitch.me/
 Maintainer: Loren Cerri (TrueXPixels) <lorencerri@gmail.com>
 Author: Loren Cerri (TrueXPixels) <lorencerri@gmail.com>
 Section: Stable
