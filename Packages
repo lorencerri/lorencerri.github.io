@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: Loren Cerri (TrueXPixels) <lorencerri@gmail.com>
 Architecture: iphoneos-arm
 Filename: debs//org.plexidev.package_0.0.1_iphoneos-arm.deb
-Size: 746
+Size: 744
 MD5Sum: f7996f98d4bc51e50eca6dd4118c0923
 Name: Debug Package
 Description: This is a debug package for the Plexi Development repository.
