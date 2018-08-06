@@ -1,0 +1,6 @@
+./Package
+./repo
+
+packages.sh
+remove.sh
+update.sh
