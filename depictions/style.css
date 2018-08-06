@@ -1,0 +1,88 @@
+body,
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+body {
+    background-color: #23272A;
+    margin: 0px;
+}
+
+.jumbotron {
+    background-image: url('https://cdn.glitch.com/66dd6990-2a1c-4c45-b317-c2cfddb9d3a1%2Fbg.jpg?1531786259229');
+    background-attachment: fixed;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card {
+    background-color: #23272A;
+}
+
+.custom-select,
+.form-control,
+.form-control:focus,
+.form-control:disabled {
+    background-color: #23272A;
+    border-color: #23272A;
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    max-width: 50%;
+    top: 0;
+    width: 600px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #99aab5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7289da;
+}
