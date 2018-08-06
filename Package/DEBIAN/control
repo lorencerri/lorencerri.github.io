@@ -1,4 +1,4 @@
-Package: org.plexidev.package
+Package: org.plexidev.Package
 Name: Debug Package
 Version: 1.0
 Architecture: iphoneos-arm
