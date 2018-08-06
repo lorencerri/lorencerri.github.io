@@ -1,0 +1,10 @@
+Package: org.plexidev.package
+Name: Debug Package
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This is a debug package for the Plexi Development repository.
+Depiction: https://plexidev.org
+Homepage: https://plexidev.org
+Maintainer: Loren Cerri (TrueXPixels) <lorencerri@gmail.com>
+Author: Loren Cerri (TrueXPixels) <lorencerri@gmail.com>
+Section: Debug
