@@ -1,1 +1,1 @@
-dpkg-deb -b Package
+sudo dpkg-deb -b Package
