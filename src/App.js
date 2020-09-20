@@ -17,9 +17,19 @@ function App() {
                         TrueXPixels
                     </h3>
                     <font size="4">
-                        <a href="https://github.com/truexpixels">GitHub</a>{" "}
+                        <a
+                            href="https://github.com/truexpixels"
+                            target="_blank"
+                        >
+                            GitHub
+                        </a>{" "}
                         &bull;{" "}
-                        <a href="https://twitter.com/truexpixels">Twitter</a>
+                        <a
+                            href="https://twitter.com/truexpixels"
+                            target="_blank"
+                        >
+                            Twitter
+                        </a>
                     </font>
                 </div>
                 <font size="4" style={{ margin: 10 }}>
