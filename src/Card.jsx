@@ -14,9 +14,13 @@ export const Card = ({
     return (
         <CardContainer>
             <CardTitleContainer>
-                <SVG header src={icon}></SVG>
+                <SVG header src={icon} alt={title}></SVG>
                 <CardTitle>
-                    <CardTitleAnchor href={link} target="_blank">
+                    <CardTitleAnchor
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         {title}
                     </CardTitleAnchor>
                 </CardTitle>
@@ -29,9 +33,9 @@ export const Card = ({
                     ></CardLanguageSymbol>
                     <CenterSpan>{language}</CenterSpan>
                 </CardLanguageContainer>
-                {stats.map((i) => {
+                {stats.map((i, index) => {
                     return (
-                        <StatsContainer>
+                        <StatsContainer key={`${title}-stat-${index}`}>
                             <SVG src={i.icon} title={i.alt} alt={i.alt}></SVG>
                             <CenterSpan>{i.text}</CenterSpan>
                         </StatsContainer>

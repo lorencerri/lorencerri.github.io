@@ -20,6 +20,7 @@ function App() {
                         <a
                             href="https://github.com/truexpixels"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             GitHub
                         </a>{" "}
@@ -27,6 +28,7 @@ function App() {
                         <a
                             href="https://twitter.com/truexpixels"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Twitter
                         </a>
@@ -35,7 +37,7 @@ function App() {
                 <font size="4" style={{ margin: 10 }}>
                     Notable Projects
                 </font>
-                {projects.map((data) => {
+                {projects.map((data, index) => {
                     if (data.icon)
                         data.icon = require(`./icons/${data.icon}.svg`);
                     if (data.stats)
@@ -43,7 +45,7 @@ function App() {
                             ...stat,
                             icon: require(`./icons/${stat.icon}.svg`),
                         }));
-                    return <Card {...data}></Card>;
+                    return <Card key={`project-${index}`} {...data}></Card>;
                 })}
             </header>
         </div>
