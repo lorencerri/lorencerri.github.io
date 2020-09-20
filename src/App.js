@@ -4,6 +4,7 @@ import { Card } from "./Card.jsx";
 import projects from "./projects.json";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
+import FadeIn from "react-fade-in";
 
 import NPMSVG from "./icons/npm.svg";
 import DiscordSVG from "./icons/discord-logo.svg";
@@ -48,8 +49,8 @@ export const App = () => {
                             rel="noopener noreferrer"
                         >
                             GitHub
-                        </a>{" "}
-                        &bull;{" "}
+                        </a>
+                        &nbsp;&bull;&nbsp;
                         <a
                             href="https://twitter.com/truexpixels"
                             target="_blank"
@@ -80,11 +81,13 @@ export const App = () => {
                 </TagsContainer>
 
                 {/* Projects */}
-                {projects
-                    .filter((p) => !filter || p.tag === filter)
-                    .map((data, index) => (
-                        <Card key={`project-${index}`} {...data}></Card>
-                    ))}
+                <FadeIn key={filter} delay={100}>
+                    {projects
+                        .filter((p) => !filter || p.tag === filter)
+                        .map((data, index) => (
+                            <Card key={`project-${index}`} {...data}></Card>
+                        ))}
+                </FadeIn>
             </header>
         </div>
     );
@@ -101,7 +104,7 @@ const TagsContainer = styled.div`
     line-height: 1.5;
     color: #aba499;
     margin: 5px;
-    min-width: 33%;
+    min-width: 33vw;
     max-width: 473px;
 `;
 

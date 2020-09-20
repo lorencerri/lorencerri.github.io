@@ -69,7 +69,7 @@ const CardContainer = styled.div`
     line-height: 1.5;
     color: #aba499;
     margin: 5px;
-    min-width: 33%;
+    min-width: 33vw;
     max-width: 473px;
 `;
 
