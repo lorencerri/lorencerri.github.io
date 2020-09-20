@@ -30,7 +30,7 @@ export const App = () => {
     }, [history, filter]);
 
     return (
-        <App>
+        <AppContainer>
             <AppHeader key={filter}>
                 <div style={{ margin: 50 }}>
                     <h3
@@ -88,11 +88,11 @@ export const App = () => {
                         ))}
                 </FadeIn>
             </AppHeader>
-        </App>
+        </AppContainer>
     );
 };
 
-const App = styled.div`
+const AppContainer = styled.div`
     text-align: center;
 `;
 
