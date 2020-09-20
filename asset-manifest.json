@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.adf06378.chunk.css",
+    "main.css": "/static/css/main.14ccfd5b.chunk.css",
     "main.js": "/static/js/main.deeacc2e.chunk.js",
     "main.js.map": "/static/js/main.deeacc2e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dc4b3e3c.js",
@@ -9,10 +9,10 @@
     "static/js/2.443bfee3.chunk.js": "/static/js/2.443bfee3.chunk.js",
     "static/js/2.443bfee3.chunk.js.map": "/static/js/2.443bfee3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79ac027c7a2ce050bd0a84cada2942de.js": "/precache-manifest.79ac027c7a2ce050bd0a84cada2942de.js",
+    "precache-manifest.6ac992aee7b6f4a3bc252e467a1dd042.js": "/precache-manifest.6ac992aee7b6f4a3bc252e467a1dd042.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4b0b2f9d.chunk.css.map": "/static/css/2.4b0b2f9d.chunk.css.map",
-    "static/css/main.adf06378.chunk.css.map": "/static/css/main.adf06378.chunk.css.map",
+    "static/css/main.14ccfd5b.chunk.css.map": "/static/css/main.14ccfd5b.chunk.css.map",
     "static/js/2.443bfee3.chunk.js.LICENSE.txt": "/static/js/2.443bfee3.chunk.js.LICENSE.txt",
     "static/media/cloud-download.svg": "/static/media/cloud-download.e807bf72.svg",
     "static/media/discord-logo.svg": "/static/media/discord-logo.f8389ca1.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.dc4b3e3c.js",
     "static/css/2.4b0b2f9d.chunk.css",
     "static/js/2.443bfee3.chunk.js",
-    "static/css/main.adf06378.chunk.css",
+    "static/css/main.14ccfd5b.chunk.css",
     "static/js/main.deeacc2e.chunk.js"
   ]
 }
