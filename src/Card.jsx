@@ -6,7 +6,7 @@ import colors from "./colors.json";
 export const Card = ({
     title = "",
     description = "",
-    url = "",
+    link = "",
     icon = "",
     language = "",
     stats = [],
@@ -16,7 +16,7 @@ export const Card = ({
             <CardTitleContainer>
                 <SVG header src={icon}></SVG>
                 <CardTitle>
-                    <CardTitleAnchor href={url}>{title}</CardTitleAnchor>
+                    <CardTitleAnchor href={link}>{title}</CardTitleAnchor>
                 </CardTitle>
             </CardTitleContainer>
             <CardDescription>{description}</CardDescription>
