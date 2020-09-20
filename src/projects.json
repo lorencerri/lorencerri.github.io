@@ -2,7 +2,7 @@
     {
         "title": "Plexi Development",
         "icon": "discord-logo",
-        "description": "A development community within Discord.",
+        "description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
         "link": "https://discord.gg/plexidev",
         "stats": [
             { "icon": "users", "text": "25,767", "alt": "Members" },
