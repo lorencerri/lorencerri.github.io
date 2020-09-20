@@ -55,6 +55,7 @@ const CardContainer = styled.div`
     line-height: 1.5;
     color: #aba499;
     margin: 5px;
+    min-width: 33%;
 `;
 
 const CardTitleContainer = styled.div`
@@ -86,6 +87,7 @@ const CardDescription = styled.div`
     font-size: 12px;
     margin-bottom: 16px;
     margin-top: 8px;
+    text-align: left;
 `;
 
 const CardStatsContainer = styled.div`
