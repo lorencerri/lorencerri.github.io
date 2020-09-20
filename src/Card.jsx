@@ -14,7 +14,11 @@ export const Card = ({
     return (
         <CardContainer>
             <CardTitleContainer>
-                <SVG header src={icon} alt={title}></SVG>
+                <SVG
+                    header
+                    src={require(`./icons/${icon}.svg`)}
+                    alt={title}
+                ></SVG>
                 <CardTitle>
                     <CardTitleAnchor
                         href={link}
@@ -36,7 +40,11 @@ export const Card = ({
                 {stats.map((i, index) => {
                     return (
                         <StatsContainer key={`${title}-stat-${index}`}>
-                            <SVG src={i.icon} title={i.alt} alt={i.alt}></SVG>
+                            <SVG
+                                src={require(`./icons/${i.icon}.svg`)}
+                                title={i.alt}
+                                alt={i.alt}
+                            ></SVG>
                             <CenterSpan>{i.text}</CenterSpan>
                         </StatsContainer>
                     );
@@ -83,8 +91,8 @@ const CardTitleAnchor = styled.a`
 `;
 
 const SVG = styled.img`
-    filter: invert(88%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(95%)
-        contrast(90%);
+    filter: brightness(0) saturate(100%) invert(88%) sepia(0%) saturate(0%)
+        hue-rotate(34deg) brightness(95%) contrast(90%);
     margin-right: ${({ header }) => (header ? "8px" : "3px")};
     width: 16px;
     vertical-align: middle;

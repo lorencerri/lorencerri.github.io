@@ -1,6 +1,7 @@
 [
     {
         "title": "Plexi Development",
+        "tag": "discord",
         "icon": "discord-logo",
         "description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
         "link": "https://discord.gg/plexidev",
@@ -15,6 +16,7 @@
     },
     {
         "title": "Quick.db",
+        "tag": "npm",
         "icon": "npm",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
         "language": "JavaScript",
@@ -30,6 +32,7 @@
     },
     {
         "title": "Server Captcha Bot",
+        "tag": "discord",
         "icon": "discord-logo",
         "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
         "language": "JavaScript",
@@ -45,6 +48,7 @@
     },
     {
         "title": "discord-guardian",
+        "tag": "discord",
         "icon": "github_badge",
         "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
         "language": "JavaScript",
@@ -61,6 +65,7 @@
     },
     {
         "title": "Quick.hook",
+        "tag": "npm",
         "icon": "npm",
         "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
         "language": "JavaScript",
@@ -76,6 +81,7 @@
     },
     {
         "title": "powercord-reverse-image-search",
+        "tag": "discord",
         "icon": "github_badge",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
         "language": "JavaScript",
