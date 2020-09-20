@@ -117,4 +117,5 @@ const SVG = styled.img`
     width: 24px;
     vertical-align: middle;
     margin: 0 5px;
+    cursor: pointer;
 `;
