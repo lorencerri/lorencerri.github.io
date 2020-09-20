@@ -16,7 +16,9 @@ export const Card = ({
             <CardTitleContainer>
                 <SVG header src={icon}></SVG>
                 <CardTitle>
-                    <CardTitleAnchor href={link}>{title}</CardTitleAnchor>
+                    <CardTitleAnchor href={link} target="_blank">
+                        {title}
+                    </CardTitleAnchor>
                 </CardTitle>
             </CardTitleContainer>
             <CardDescription>{description}</CardDescription>
