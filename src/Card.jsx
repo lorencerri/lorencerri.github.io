@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Tooltip } from "antd";
 
 import colors from "./colors.json";
 
@@ -39,14 +40,15 @@ export const Card = ({
                 </CardLanguageContainer>
                 {stats.map((i, index) => {
                     return (
-                        <StatsContainer key={`${title}-stat-${index}`}>
-                            <SVG
-                                src={require(`./icons/${i.icon}.svg`)}
-                                title={i.alt}
-                                alt={i.alt}
-                            ></SVG>
-                            <CenterSpan>{i.text}</CenterSpan>
-                        </StatsContainer>
+                        <Tooltip title={i.alt}>
+                            <StatsContainer key={`${title}-stat-${index}`}>
+                                <SVG
+                                    src={require(`./icons/${i.icon}.svg`)}
+                                    alt={i.alt}
+                                ></SVG>
+                                <CenterSpan>{i.text}</CenterSpan>
+                            </StatsContainer>
+                        </Tooltip>
                     );
                 })}
             </CardStatsContainer>
