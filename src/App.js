@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
 import { Card } from "./Card.jsx";
 import projects from "./projects.json";
 import styled from "styled-components";
@@ -31,8 +30,8 @@ export const App = () => {
     }, [history, filter]);
 
     return (
-        <div className="App">
-            <FadeIn key={filter} className="App-header">
+        <App>
+            <AppHeader key={filter}>
                 <div style={{ margin: 50 }}>
                     <h3
                         style={{
@@ -88,10 +87,29 @@ export const App = () => {
                             <Card key={`project-${index}`} {...data}></Card>
                         ))}
                 </FadeIn>
-            </FadeIn>
-        </div>
+            </AppHeader>
+        </App>
     );
 };
+
+const App = styled.div`
+    text-align: center;
+`;
+
+const AppHeader = styled(FadeIn)`
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 50px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-color: transparent transparent;
+`;
 
 const TagsContainer = styled.div`
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
