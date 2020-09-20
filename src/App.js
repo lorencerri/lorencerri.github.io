@@ -1,18 +1,9 @@
 import React from "react";
-
 import "./App.css";
+import { Card } from "./Card.jsx";
+import projects from "./projects.json";
 
 function App() {
-    const Card = (repo) => {
-        return (
-            <div
-                style={{ margin: 10 }}
-                class="repo-card"
-                data-repo={repo}
-            ></div>
-        );
-    };
-
     return (
         <div className="App">
             <header className="App-header">
@@ -34,10 +25,16 @@ function App() {
                 <font size="4" style={{ margin: 10 }}>
                     Notable Projects
                 </font>
-                {Card("plexidev/quick.db")}
-                {Card("TrueXPixels/discord-guardian")}
-                {Card("TrueXPixels/powercord-reverse-image-search")}
-                {Card("TrueXPixels/quick.hook")}
+                {projects.map((data) => {
+                    if (data.icon)
+                        data.icon = require(`./icons/${data.icon}.svg`);
+                    if (data.stats)
+                        data.stats = data.stats.map((stat) => ({
+                            ...stat,
+                            icon: require(`./icons/${stat.icon}.svg`),
+                        }));
+                    return <Card {...data}></Card>;
+                })}
             </header>
         </div>
     );

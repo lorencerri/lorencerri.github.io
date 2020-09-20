@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Quick.db",
+        "icon": "npm",
+        "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
+        "language": "JavaScript",
+        "link": "https://npmjs.org/quick.db",
+        "stats": [{ "icon": "cloud-download", "text": "1.2m" }]
+    },
+    {
+        "title": "discord-guardian",
+        "icon": "github_badge",
+        "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
+        "language": "JavaScript",
+        "link": "https://github.com/TrueXPixels/discord-guardian",
+        "stats": [
+            { "icon": "star-o", "text": "23" },
+            { "icon": "git_branch", "text": "8" }
+        ]
+    }
+]
