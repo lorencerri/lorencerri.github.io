@@ -32,7 +32,7 @@ export const App = () => {
 
     return (
         <div className="App">
-            <header className="App-header">
+            <FadeIn key={filter} className="App-header">
                 <div style={{ margin: 50 }}>
                     <h3
                         style={{
@@ -81,14 +81,14 @@ export const App = () => {
                 </TagsContainer>
 
                 {/* Projects */}
-                <FadeIn key={filter} delay={100}>
+                <FadeIn key={filter} delay={150}>
                     {projects
                         .filter((p) => !filter || p.tag === filter)
                         .map((data, index) => (
                             <Card key={`project-${index}`} {...data}></Card>
                         ))}
                 </FadeIn>
-            </header>
+            </FadeIn>
         </div>
     );
 };

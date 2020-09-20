@@ -12,4 +12,15 @@
     font-size: calc(10px + 2vmin);
     color: white;
     margin-bottom: 50px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-color: transparent transparent;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-scrollbar {
+    display: none;
 }
