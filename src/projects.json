@@ -1,11 +1,47 @@
 [
     {
+        "title": "Plexi Development",
+        "icon": "discord-logo",
+        "description": "A development community within Discord.",
+        "link": "https://discord.gg/plexidev",
+        "stats": [
+            { "icon": "users", "text": "25,767", "alt": "Members" },
+            {
+                "icon": "calendar",
+                "text": "August 5th, 2017",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
         "title": "Quick.db",
         "icon": "npm",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
         "language": "JavaScript",
         "link": "https://npmjs.org/quick.db",
-        "stats": [{ "icon": "cloud-download", "text": "1.2m" }]
+        "stats": [
+            { "icon": "cloud-download", "text": "1.2m", "alt": "Downloads" },
+            {
+                "icon": "calendar",
+                "text": "October 18th, 2017",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
+        "title": "Server Captcha Bot",
+        "icon": "discord-logo",
+        "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
+        "language": "JavaScript",
+        "link": "https://top.gg/bot/captcha",
+        "stats": [
+            { "icon": "home", "text": "36,224", "alt": "Guilds" },
+            {
+                "icon": "calendar",
+                "text": "November 14th, 2018",
+                "alt": "Initial Release"
+            }
+        ]
     },
     {
         "title": "discord-guardian",
@@ -14,8 +50,42 @@
         "language": "JavaScript",
         "link": "https://github.com/TrueXPixels/discord-guardian",
         "stats": [
-            { "icon": "star-o", "text": "23" },
-            { "icon": "git_branch", "text": "8" }
+            { "icon": "star-o", "text": "23", "alt": "Stars" },
+            { "icon": "git_branch", "text": "8", "alt": "Forks" },
+            {
+                "icon": "calendar",
+                "text": "March 20th, 2020",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
+        "title": "Quick.hook",
+        "icon": "npm",
+        "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
+        "language": "JavaScript",
+        "link": "https://npmjs.org/quick.hook",
+        "stats": [
+            { "icon": "cloud-download", "text": "174k", "alt": "Downloads" },
+            {
+                "icon": "calendar",
+                "text": "March 21st, 2018",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
+        "title": "powercord-reverse-image-search",
+        "icon": "github_badge",
+        "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
+        "language": "JavaScript",
+        "link": "https://github.com/TrueXPixels/powercord-reverse-image-search",
+        "stats": [
+            {
+                "icon": "calendar",
+                "text": "September 18th, 2020",
+                "alt": "Initial Release"
+            }
         ]
     }
 ]

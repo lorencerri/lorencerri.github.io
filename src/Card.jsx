@@ -30,7 +30,7 @@ export const Card = ({
                 {stats.map((i) => {
                     return (
                         <StatsContainer>
-                            <SVG src={i.icon}></SVG>
+                            <SVG src={i.icon} title={i.alt} alt={i.alt}></SVG>
                             <CenterSpan>{i.text}</CenterSpan>
                         </StatsContainer>
                     );
@@ -56,6 +56,7 @@ const CardContainer = styled.div`
     color: #aba499;
     margin: 5px;
     min-width: 33%;
+    max-width: 473px;
 `;
 
 const CardTitleContainer = styled.div`
