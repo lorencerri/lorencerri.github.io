@@ -81,7 +81,7 @@
     },
     {
         "title": "powercord-reverse-image-search",
-        "tag": "discord",
+        "tag": "powercord",
         "icon": "github_badge",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
         "language": "JavaScript",
@@ -90,6 +90,21 @@
             {
                 "icon": "calendar",
                 "text": "September 18th, 2020",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
+        "title": "powercord-open-in-spotify",
+        "tag": "powercord",
+        "icon": "github_badge",
+        "description": "Open spotify links in the spotify application instead of the web browser.",
+        "language": "JavaScript",
+        "link": "https://github.com/TrueXPixels/powercord-open-in-spotify",
+        "stats": [
+            {
+                "icon": "calendar",
+                "text": "September 20th, 2020",
                 "alt": "Initial Release"
             }
         ]

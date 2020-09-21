@@ -7,6 +7,7 @@ import FadeIn from "react-fade-in";
 
 import NPMSVG from "./icons/npm.svg";
 import DiscordSVG from "./icons/discord-logo.svg";
+import PowercordSVG from "./icons/powercord.svg";
 
 const tags = [
     {
@@ -16,6 +17,10 @@ const tags = [
     {
         icon: DiscordSVG,
         name: "discord",
+    },
+    {
+        icon: PowercordSVG,
+        name: "powercord",
     },
 ];
 
