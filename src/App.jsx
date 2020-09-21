@@ -4,6 +4,7 @@ import projects from "./projects.json";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import FadeIn from "react-fade-in";
+import { Tooltip } from "antd";
 
 import NPMSVG from "./icons/npm.svg";
 import DiscordSVG from "./icons/discord-logo.svg";
@@ -71,16 +72,18 @@ export const App = () => {
                         Filter: &nbsp;
                     </span>
                     {tags.map((tag) => (
-                        <SVG
-                            src={tag.icon}
-                            alt={tag.name}
-                            key={tag.name}
-                            toggled={filter === tag.name}
-                            onClick={() => {
-                                if (filter === tag.name) setFilter(null);
-                                else setFilter(tag.name);
-                            }}
-                        ></SVG>
+                        <Tooltip title={tag.name}>
+                            <SVG
+                                src={tag.icon}
+                                alt={tag.name}
+                                key={tag.name}
+                                toggled={filter === tag.name}
+                                onClick={() => {
+                                    if (filter === tag.name) setFilter(null);
+                                    else setFilter(tag.name);
+                                }}
+                            ></SVG>
+                        </Tooltip>
                     ))}
                 </TagsContainer>
 
