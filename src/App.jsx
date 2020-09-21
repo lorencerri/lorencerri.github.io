@@ -14,14 +14,17 @@ const tags = [
     {
         icon: NPMSVG,
         name: "npm",
+        tooltip: "npm",
     },
     {
         icon: DiscordSVG,
         name: "discord",
+        tooltip: "Discord",
     },
     {
         icon: PowercordSVG,
         name: "powercord",
+        tooltip: "Powercord",
     },
 ];
 
@@ -72,7 +75,7 @@ export const App = () => {
                         Filter: &nbsp;
                     </span>
                     {tags.map((tag) => (
-                        <Tooltip title={tag.name}>
+                        <Tooltip title={tag.tooltip}>
                             <SVG
                                 src={tag.icon}
                                 alt={tag.name}
