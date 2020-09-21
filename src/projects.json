@@ -108,5 +108,20 @@
                 "alt": "Initial Release"
             }
         ]
+    },
+    {
+        "title": "powercord-message-tooltips",
+        "tag": "powercord",
+        "icon": "github_badge",
+        "description": "A simple plugin that displays useful information as tooltips in messages.",
+        "language": "JavaScript",
+        "link": "https://github.com/TrueXPixels/powercord-message-tooltips",
+        "stats": [
+            {
+                "icon": "calendar",
+                "text": "September 21st, 2020",
+                "alt": "Initial Release"
+            }
+        ]
     }
 ]
