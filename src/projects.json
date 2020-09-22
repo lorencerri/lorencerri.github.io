@@ -15,7 +15,7 @@
         ]
     },
     {
-        "title": "Quick.db",
+        "title": "quick.db",
         "tag": "npm",
         "icon": "npm",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "title": "Quick.hook",
+        "title": "quick.hook",
         "tag": "npm",
         "icon": "npm",
         "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
