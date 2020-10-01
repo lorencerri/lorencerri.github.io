@@ -41,15 +41,8 @@ export const App = () => {
     return (
         <AppContainer>
             <AppHeader key={filter}>
-                <div style={{ margin: 50 }}>
-                    <h3
-                        style={{
-                            marginBottom: 0,
-                            borderBottom: "1px solid grey",
-                        }}
-                    >
-                        TrueXPixels
-                    </h3>
+                <AppHeaderContainer>
+                    <AppHeaderTitle>TrueXPixels</AppHeaderTitle>
                     <font size="4">
                         <a
                             href="https://github.com/truexpixels"
@@ -67,13 +60,11 @@ export const App = () => {
                             Twitter
                         </a>
                     </font>
-                </div>
+                </AppHeaderContainer>
 
                 {/* Tags */}
                 <TagsContainer>
-                    <span style={{ verticalAlign: "middle" }}>
-                        Filter: &nbsp;
-                    </span>
+                    <VerticalSpan>Filter: &nbsp;</VerticalSpan>
                     {tags.map((tag) => (
                         <Tooltip title={tag.tooltip}>
                             <SVG
@@ -102,6 +93,19 @@ export const App = () => {
         </AppContainer>
     );
 };
+
+const AppHeaderTitle = styled.div`
+    margin-bottom: 0;
+    border-bottom: 1px solid grey;
+`;
+
+const AppHeaderContainer = styled.div`
+    margin: 50px;
+`;
+
+const VerticalSpan = styled.span`
+    vertical-align: middle;
+`;
 
 const AppContainer = styled.div`
     text-align: center;
