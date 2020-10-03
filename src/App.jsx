@@ -45,7 +45,7 @@ export const App = () => {
                     <AppHeaderTitle>TrueXPixels</AppHeaderTitle>
                     <font size="4">
                         <a
-                            href="https://github.com/truexpixels"
+                            href="https://github.com/lorencerri"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
