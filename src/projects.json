@@ -52,7 +52,7 @@
         "icon": "github_badge",
         "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
         "language": "JavaScript",
-        "link": "https://github.com/TrueXPixels/discord-guardian",
+        "link": "https://github.com/lorencerri/discord-guardian",
         "stats": [
             { "icon": "star-o", "text": "23", "alt": "Stars" },
             { "icon": "git_branch", "text": "8", "alt": "Forks" },
@@ -85,7 +85,7 @@
         "icon": "github_badge",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
         "language": "JavaScript",
-        "link": "https://github.com/TrueXPixels/powercord-reverse-image-search",
+        "link": "https://github.com/lorencerri/powercord-reverse-image-search",
         "stats": [
             {
                 "icon": "calendar",
@@ -100,7 +100,7 @@
         "icon": "github_badge",
         "description": "Open spotify links in the spotify application instead of the web browser.",
         "language": "JavaScript",
-        "link": "https://github.com/TrueXPixels/powercord-open-in-spotify",
+        "link": "https://github.com/lorencerri/powercord-open-in-spotify",
         "stats": [
             {
                 "icon": "calendar",
@@ -115,7 +115,7 @@
         "icon": "github_badge",
         "description": "A simple plugin that displays useful information as tooltips in messages.",
         "language": "JavaScript",
-        "link": "https://github.com/TrueXPixels/powercord-message-tooltips",
+        "link": "https://github.com/lorencerri/powercord-message-tooltips",
         "stats": [
             {
                 "icon": "calendar",
