@@ -42,7 +42,7 @@ export const App = () => {
         <AppContainer>
             <AppHeader key={filter}>
                 <AppHeaderContainer>
-                    <AppHeaderTitle>lorencerri</AppHeaderTitle>
+                    <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
                     <font size="4">
                         <a
                             href="https://github.com/lorencerri"
