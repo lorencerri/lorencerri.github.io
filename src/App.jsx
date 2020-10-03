@@ -53,7 +53,7 @@ export const App = () => {
                         </a>
                         &nbsp;&bull;&nbsp;
                         <a
-                            href="https://twitter.com/truexpixels"
+                            href="https://twitter.com/lorencerri"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
