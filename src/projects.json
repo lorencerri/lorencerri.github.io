@@ -1,142 +1,142 @@
 [
-    {
-        "title": "Plexi Development",
-        "tag": "discord",
-        "icon": "discord-logo",
-        "description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
-        "link": "https://discord.gg/plexidev",
-        "stats": [
-            { "icon": "users", "text": "25,767", "alt": "Members" },
-            {
-                "icon": "calendar",
-                "text": "August 5th, 2017",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "quick.db",
-        "tag": "npm",
-        "icon": "npm",
-        "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
-        "language": "JavaScript",
-        "link": "https://npmjs.org/quick.db",
-        "stats": [
-            { "icon": "cloud-download", "text": "1.2m", "alt": "Downloads" },
-            {
-                "icon": "calendar",
-                "text": "October 18th, 2017",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "list-gen",
-        "tag": "npm",
-        "icon": "npm",
-        "description": "A simple helper package for generating lists in JIMP.",
-        "language": "JavaScript",
-        "link": "https://npmjs.org/list-gen",
-        "stats": [
-            {
-                "icon": "calendar",
-                "text": "October 5th, 2020",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "Server Captcha Bot",
-        "tag": "discord",
-        "icon": "discord-logo",
-        "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
-        "language": "JavaScript",
-        "link": "https://top.gg/bot/captcha",
-        "stats": [
-            { "icon": "home", "text": "36,224", "alt": "Guilds" },
-            {
-                "icon": "calendar",
-                "text": "November 14th, 2018",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "discord-guardian",
-        "tag": "discord",
-        "icon": "github_badge",
-        "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
-        "language": "JavaScript",
-        "link": "https://github.com/lorencerri/discord-guardian",
-        "stats": [
-            { "icon": "star-o", "text": "23", "alt": "Stars" },
-            { "icon": "git_branch", "text": "8", "alt": "Forks" },
-            {
-                "icon": "calendar",
-                "text": "March 20th, 2020",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "quick.hook",
-        "tag": "npm",
-        "icon": "npm",
-        "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
-        "language": "JavaScript",
-        "link": "https://npmjs.org/quick.hook",
-        "stats": [
-            { "icon": "cloud-download", "text": "174k", "alt": "Downloads" },
-            {
-                "icon": "calendar",
-                "text": "March 21st, 2018",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "powercord-reverse-image-search",
-        "tag": "powercord",
-        "icon": "github_badge",
-        "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
-        "language": "JavaScript",
-        "link": "https://github.com/lorencerri/powercord-reverse-image-search",
-        "stats": [
-            {
-                "icon": "calendar",
-                "text": "September 18th, 2020",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "powercord-open-in-spotify",
-        "tag": "powercord",
-        "icon": "github_badge",
-        "description": "Open spotify links in the spotify application instead of the web browser.",
-        "language": "JavaScript",
-        "link": "https://github.com/lorencerri/powercord-open-in-spotify",
-        "stats": [
-            {
-                "icon": "calendar",
-                "text": "September 20th, 2020",
-                "alt": "Initial Release"
-            }
-        ]
-    },
-    {
-        "title": "powercord-message-tooltips",
-        "tag": "powercord",
-        "icon": "github_badge",
-        "description": "A simple plugin that displays useful information as tooltips in messages.",
-        "language": "JavaScript",
-        "link": "https://github.com/lorencerri/powercord-message-tooltips",
-        "stats": [
-            {
-                "icon": "calendar",
-                "text": "September 21st, 2020",
-                "alt": "Initial Release"
-            }
-        ]
-    }
+	{
+		"title": "Plexi Development",
+		"tag": "discord",
+		"icon": "discord-logo",
+		"description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
+		"link": "https://discord.gg/plexidev",
+		"stats": [
+			{"icon": "users", "text": "25,767", "alt": "Members"},
+			{
+				"icon": "calendar",
+				"text": "August 5th, 2017",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "quick.db",
+		"tag": "npm",
+		"icon": "npm",
+		"description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
+		"language": "JavaScript",
+		"link": "https://npmjs.org/quick.db",
+		"stats": [
+			{"icon": "cloud-download", "text": "1.2m", "alt": "Downloads"},
+			{
+				"icon": "calendar",
+				"text": "October 18th, 2017",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "list-gen",
+		"tag": "npm",
+		"icon": "npm",
+		"description": "A simple helper package for generating lists in JIMP.",
+		"language": "JavaScript",
+		"link": "https://npmjs.org/list-gen",
+		"stats": [
+			{
+				"icon": "calendar",
+				"text": "October 5th, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "Server Captcha Bot",
+		"tag": "discord",
+		"icon": "discord-logo",
+		"description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
+		"language": "JavaScript",
+		"link": "https://top.gg/bot/captcha",
+		"stats": [
+			{"icon": "home", "text": "36,224", "alt": "Guilds"},
+			{
+				"icon": "calendar",
+				"text": "November 14th, 2018",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "discord-guardian",
+		"tag": "discord",
+		"icon": "github_badge",
+		"description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
+		"language": "JavaScript",
+		"link": "https://github.com/lorencerri/discord-guardian",
+		"stats": [
+			{"icon": "star-o", "text": "23", "alt": "Stars"},
+			{"icon": "git_branch", "text": "8", "alt": "Forks"},
+			{
+				"icon": "calendar",
+				"text": "March 20th, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "quick.hook",
+		"tag": "npm",
+		"icon": "npm",
+		"description": "An extension for discord.js which allows developers to fully utilize webhooks.",
+		"language": "JavaScript",
+		"link": "https://npmjs.org/quick.hook",
+		"stats": [
+			{"icon": "cloud-download", "text": "174k", "alt": "Downloads"},
+			{
+				"icon": "calendar",
+				"text": "March 21st, 2018",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "powercord-reverse-image-search",
+		"tag": "powercord",
+		"icon": "github_badge",
+		"description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
+		"language": "JavaScript",
+		"link": "https://github.com/lorencerri/powercord-reverse-image-search",
+		"stats": [
+			{
+				"icon": "calendar",
+				"text": "September 18th, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "powercord-open-in-spotify",
+		"tag": "powercord",
+		"icon": "github_badge",
+		"description": "Open spotify links in the spotify application instead of the web browser.",
+		"language": "JavaScript",
+		"link": "https://github.com/lorencerri/powercord-open-in-spotify",
+		"stats": [
+			{
+				"icon": "calendar",
+				"text": "September 20th, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "powercord-message-tooltips",
+		"tag": "powercord",
+		"icon": "github_badge",
+		"description": "A simple plugin that displays useful information as tooltips in messages.",
+		"language": "JavaScript",
+		"link": "https://github.com/lorencerri/powercord-message-tooltips",
+		"stats": [
+			{
+				"icon": "calendar",
+				"text": "September 21st, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	}
 ]
