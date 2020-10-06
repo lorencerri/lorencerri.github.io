@@ -93,10 +93,29 @@ export const App = () => {
 				<FadeIn key={filter} delay={150}>
 					{projects
 						.filter(p => !filter || p.tag === filter)
-						.map((data, index) => (
-							// eslint-disable-next-line react/jsx-props-no-spreading
-							<Card key={`project-${index}`} {...data} />
-						))}
+						.map(
+							(
+								{
+									title,
+									description,
+									link,
+									icon,
+									language,
+									stats,
+								},
+								index
+							) => (
+								<Card
+									key={`project-${index}`}
+									title={title}
+									description={description}
+									link={link}
+									icon={icon}
+									language={language}
+									stats={stats}
+								/>
+							)
+						)}
 				</FadeIn>
 			</AppHeader>
 		</AppContainer>
