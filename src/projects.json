@@ -6,7 +6,7 @@
 		"description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
 		"link": "https://discord.gg/plexidev",
 		"stats": [
-			{"icon": "users", "text": "25,767", "alt": "Members"},
+			{ "icon": "users", "text": "25,767", "alt": "Members" },
 			{
 				"icon": "calendar",
 				"text": "August 5th, 2017",
@@ -22,25 +22,10 @@
 		"language": "JavaScript",
 		"link": "https://npmjs.org/quick.db",
 		"stats": [
-			{"icon": "cloud-download", "text": "1.2m", "alt": "Downloads"},
+			{ "icon": "cloud-download", "text": "1.2m", "alt": "Downloads" },
 			{
 				"icon": "calendar",
 				"text": "October 18th, 2017",
-				"alt": "Initial Release"
-			}
-		]
-	},
-	{
-		"title": "list-gen",
-		"tag": "npm",
-		"icon": "npm",
-		"description": "A simple helper package for generating lists in JIMP.",
-		"language": "JavaScript",
-		"link": "https://npmjs.org/list-gen",
-		"stats": [
-			{
-				"icon": "calendar",
-				"text": "October 5th, 2020",
 				"alt": "Initial Release"
 			}
 		]
@@ -53,7 +38,7 @@
 		"language": "JavaScript",
 		"link": "https://top.gg/bot/captcha",
 		"stats": [
-			{"icon": "home", "text": "36,224", "alt": "Guilds"},
+			{ "icon": "home", "text": "36,224", "alt": "Guilds" },
 			{
 				"icon": "calendar",
 				"text": "November 14th, 2018",
@@ -69,8 +54,8 @@
 		"language": "JavaScript",
 		"link": "https://github.com/lorencerri/discord-guardian",
 		"stats": [
-			{"icon": "star-o", "text": "23", "alt": "Stars"},
-			{"icon": "git_branch", "text": "8", "alt": "Forks"},
+			{ "icon": "star-o", "text": "23", "alt": "Stars" },
+			{ "icon": "git_branch", "text": "8", "alt": "Forks" },
 			{
 				"icon": "calendar",
 				"text": "March 20th, 2020",
@@ -86,7 +71,7 @@
 		"language": "JavaScript",
 		"link": "https://npmjs.org/quick.hook",
 		"stats": [
-			{"icon": "cloud-download", "text": "174k", "alt": "Downloads"},
+			{ "icon": "cloud-download", "text": "174k", "alt": "Downloads" },
 			{
 				"icon": "calendar",
 				"text": "March 21st, 2018",
@@ -135,6 +120,21 @@
 			{
 				"icon": "calendar",
 				"text": "September 21st, 2020",
+				"alt": "Initial Release"
+			}
+		]
+	},
+	{
+		"title": "list-gen",
+		"tag": "npm",
+		"icon": "npm",
+		"description": "A simple helper package for generating lists in JIMP.",
+		"language": "JavaScript",
+		"link": "https://npmjs.org/list-gen",
+		"stats": [
+			{
+				"icon": "calendar",
+				"text": "October 5th, 2020",
 				"alt": "Initial Release"
 			}
 		]
