@@ -31,6 +31,21 @@
         ]
     },
     {
+        "title": "list-gen",
+        "tag": "npm",
+        "icon": "npm",
+        "description": "A simple helper package for generating lists in JIMP.",
+        "language": "JavaScript",
+        "link": "https://npmjs.org/list-gen",
+        "stats": [
+            {
+                "icon": "calendar",
+                "text": "October 5th, 2020",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
         "title": "Server Captcha Bot",
         "tag": "discord",
         "icon": "discord-logo",
