@@ -7,9 +7,9 @@ import { GlobalStyle } from './indexStyles';
 import 'antd/dist/antd.dark.css';
 
 ReactDOM.render(
-	<BrowserRouter>
-		<GlobalStyle />
-		<App />
-	</BrowserRouter>,
-	document.getElementById('root')
+    <BrowserRouter>
+        <GlobalStyle />
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
 );
