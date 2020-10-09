@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import FadeIn from 'react-fade-in';
 import { Tooltip } from 'antd';
 import projects from './projects.json';
 import Card from './Card.jsx';
@@ -13,6 +12,8 @@ import {
     SVG,
     TagsContainer,
     Tags,
+    ExternalItem,
+    CardsContainer,
 } from './AppStyles';
 
 import NPMSVG from './icons/npm.svg';
@@ -35,6 +36,11 @@ const tags = [
         name: 'powercord',
         tooltip: 'Powercord',
     },
+];
+
+const external = [
+    ['https://github.com/lorencerri', 'GitHub'],
+    ['https://twitter.com/lorencerri', 'Twitter'],
 ];
 
 export const App = () => {
@@ -70,6 +76,17 @@ export const App = () => {
                             <path d='M88.13,26.12A3.42,3.42,0,0,1,87.6,26a3.36,3.36,0,0,1-1.11-.72A1.89,1.89,0,0,1,85.88,24a7.82,7.82,0,0,1,.33-1.65,16.47,16.47,0,0,1,2-4.41c.65-.94,1.28-1.41,1.88-1.41a2,2,0,0,1,1.59.6,1.54,1.54,0,0,1,.3.6,33.11,33.11,0,0,0-2.68,4.4c.33-.51.73-1.09,1.22-1.74a41.26,41.26,0,0,1,3.41-4.06,2.13,2.13,0,0,1,1.36-.44,2.42,2.42,0,0,1,1.69.57,1,1,0,0,1,.26.45q0,.18-.6.81a8.78,8.78,0,0,0-1,1.1A2.77,2.77,0,0,0,95,20.24c0,.26.14.38.42.38a2.44,2.44,0,0,0,1.25-.49,4.15,4.15,0,0,0,.54-.46h.5a9.92,9.92,0,0,1-.93,1.1,4.09,4.09,0,0,1-2.62,1.6,1.56,1.56,0,0,1-1.33-.88,2.8,2.8,0,0,1-.31-1.35A4.84,4.84,0,0,1,92.67,19l.24-.59a22.52,22.52,0,0,0-2.68,3.53A23.93,23.93,0,0,0,88.13,26.12Z' />
                             <path d='M97.89,26.12q-.73,0-1.26-1.26a5.15,5.15,0,0,1-.35-1.79,6.78,6.78,0,0,1,.51-2.42l1.35-2.84c.44-.91.68-1.41.73-1.49.19-.27.66-.4,1.39-.4a4.26,4.26,0,0,1,1.54.27,1,1,0,0,1,.39.26v0c-.32.57-.82,1.45-1.49,2.61s-1.23,2.24-1.66,3.2a7.4,7.4,0,0,0-.58,1.56s0,.07.06.07c.22,0,1.21-1,3-2.94l1.11-1.21a1.68,1.68,0,0,1,.48,0,1.71,1.71,0,0,1,.4,0c-.1.1-.34.42-.73,1A56.37,56.37,0,0,1,99,25.43a4.89,4.89,0,0,1-.52.47A1.2,1.2,0,0,1,97.89,26.12Zm2.77-10.81c-.49,0-.74-.17-.74-.5a1.55,1.55,0,0,1,.22-.59c.26-.51.46-.94.62-1.29a4.41,4.41,0,0,0,.44-1.65,1.58,1.58,0,0,0,0-.38.87.87,0,0,1,.28-.05,2.2,2.2,0,0,1,1.07.35,2.42,2.42,0,0,1,.53.43,1.3,1.3,0,0,1,.38.85,3.63,3.63,0,0,1-.7,1.68,2,2,0,0,1-.65.69A2.51,2.51,0,0,1,100.66,15.31Z' />
                         </svg>
+                        {external.map(item => (
+                            <ExternalItem>
+                                <a
+                                    href={item[0]}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    {item[1]}
+                                </a>
+                            </ExternalItem>
+                        ))}
                     </AppHeaderTitle>
                 </AppHeaderContainer>
 
@@ -95,9 +112,8 @@ export const App = () => {
                     </Tags>
                 </TagsContainer>
             </AppHeader>
-
             {/* Projects */}
-            <FadeIn wrapperTag='ul' key={filter} delay={100}>
+            <CardsContainer wrapperTag='ul' key={filter} delay={100}>
                 {projects
                     .filter(p => !filter || p.tag === filter)
                     .map(
@@ -116,7 +132,7 @@ export const App = () => {
                             />
                         )
                     )}
-            </FadeIn>
+            </CardsContainer>
         </AppContainer>
     );
 };

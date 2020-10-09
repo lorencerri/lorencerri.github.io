@@ -1,6 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+
+    @font-face {
+        font-family: "Maghrib";
+        src: url("./Maghrib-MVZpx.ttf");
+    }
+
     body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',

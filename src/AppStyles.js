@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import FadeIn from 'react-fade-in';
 
 export const AppHeaderTitle = styled.div`
     margin-bottom: 0;
@@ -29,6 +30,16 @@ export const AppHeader = styled.div`
     scrollbar-color: transparent transparent;
     margin-bottom: 35px;
     box-shadow: 0px 2px 10px 0px black;
+`;
+
+export const ExternalItem = styled.span`
+    margin: 0px 10px;
+    font-size: 30px;
+    font-family: 'Maghrib';
+`;
+
+export const CardsContainer = styled(FadeIn)`
+    margin-bottom: 20px;
 `;
 
 export const Tags = styled.div`
