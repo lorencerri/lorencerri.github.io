@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import FadeIn from 'react-fade-in';
 
 export const AppHeaderTitle = styled.div`
     margin-bottom: 0;
@@ -18,9 +17,8 @@ export const AppContainer = styled.div`
     text-align: center;
 `;
 
-export const AppHeader = styled(FadeIn)`
+export const AppHeader = styled.div`
     background-color: #282c34;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

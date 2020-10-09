@@ -5,7 +5,7 @@ export const CenterSpan = styled.span`
     vertical-align: middle;
 `;
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.li`
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
         sans-serif, Apple Color Emoji, Segoe UI Emoji;
     border: 1px solid #373c3e;
@@ -17,6 +17,7 @@ export const CardContainer = styled.div`
     color: #aba499;
     margin: 5px;
     min-width: 33vw;
+    width: 99vw;
     max-width: 473px;
 `;
 

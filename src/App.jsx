@@ -48,7 +48,7 @@ export const App = () => {
 
     return (
         <AppContainer>
-            <AppHeader key={filter}>
+            <AppHeader>
                 <AppHeaderContainer>
                     <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
                     <font size='4'>
@@ -88,9 +88,10 @@ export const App = () => {
                         </Tooltip>
                     ))}
                 </TagsContainer>
-
-                {/* Projects */}
-                <FadeIn key={filter} delay={150}>
+            </AppHeader>
+            {/* Projects */}
+            <FadeIn key={filter} delay={150}>
+                <ul>
                     {projects
                         .filter(p => !filter || p.tag === filter)
                         .map(
@@ -116,8 +117,8 @@ export const App = () => {
                                 />
                             )
                         )}
-                </FadeIn>
-            </AppHeader>
+                </ul>
+            </FadeIn>
         </AppContainer>
     );
 };
