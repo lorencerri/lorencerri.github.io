@@ -70,8 +70,6 @@ export const App = () => {
                         </ExternalItem>
                     ))}
                 </AppHeaderContainer>
-
-                {/* Tags */}
                 <TagsContainer>
                     <Tags>
                         <VerticalSpan>Filter: &nbsp;</VerticalSpan>
@@ -93,7 +91,6 @@ export const App = () => {
                     </Tags>
                 </TagsContainer>
             </AppHeader>
-            {/* Projects */}
             <CardsContainer wrapperTag='ul' key={filter} delay={100}>
                 {projects
                     .filter(p => !filter || p.tag === filter)
