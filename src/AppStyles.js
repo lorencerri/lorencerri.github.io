@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const AppHeaderTitle = styled.div`
     margin-bottom: 0;
-    border-bottom: 1px solid grey;
 `;
 
 export const AppHeaderContainer = styled.div`
-    margin: 50px;
+    margin: 25px;
 `;
 
 export const VerticalSpan = styled.span`
@@ -18,20 +17,21 @@ export const AppContainer = styled.div`
 `;
 
 export const AppHeader = styled.div`
-    background-color: #282c34;
+    background-color: #23272a;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    margin-bottom: 50px;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-color: transparent transparent;
+    margin-bottom: 35px;
+    box-shadow: 0px 8px 6px -6px black;
 `;
 
-export const TagsContainer = styled.div`
+export const Tags = styled.div`
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
         sans-serif, Apple Color Emoji, Segoe UI Emoji;
     border: 1px solid #373c3e;
@@ -41,10 +41,16 @@ export const TagsContainer = styled.div`
     font-size: 14px;
     line-height: 1.5;
     color: #aba499;
-    margin: 5px;
-    min-width: 32vw;
-    width: 96vw;
+    margin-bottom: 40px;
+    min-width: 30vw;
+    width: 90vw;
     max-width: 473px;
+`;
+
+export const TagsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 export const SVG = styled.img`

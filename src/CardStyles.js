@@ -16,9 +16,10 @@ export const CardContainer = styled.li`
     line-height: 1.5;
     color: #aba499;
     margin: 5px;
-    min-width: 32vw;
-    width: 96vw;
+    min-width: 30vw;
+    width: 90vw;
     max-width: 473px;
+    height: 135px;
 `;
 
 export const CardTitleContainer = styled.div`
