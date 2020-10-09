@@ -28,7 +28,7 @@ export const AppHeader = styled.div`
     -ms-overflow-style: none;
     scrollbar-color: transparent transparent;
     margin-bottom: 35px;
-    box-shadow: 0px 8px 6px -6px black;
+    box-shadow: 0px 2px 10px 0px black;
 `;
 
 export const Tags = styled.div`
