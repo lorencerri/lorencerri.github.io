@@ -43,6 +43,7 @@ export const TagsContainer = styled.div`
     color: #aba499;
     margin: 5px;
     min-width: 33vw;
+    width: 99vw;
     max-width: 473px;
 `;
 
