@@ -36,6 +36,11 @@ const tags = [
     },
 ];
 
+const external = [
+    ['https://github.com/lorencerri', 'GitHub'],
+    ['https://twitter.com/lorencerri', 'Twitter'],
+];
+
 export const App = () => {
     const history = useHistory();
     const [filter, setFilter] = useState(
@@ -52,21 +57,20 @@ export const App = () => {
                 <AppHeaderContainer>
                     <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
                     <font size='4'>
-                        <a
-                            href='https://github.com/lorencerri'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                        >
-                            GitHub
-                        </a>
-                        &nbsp;&bull;&nbsp;
-                        <a
-                            href='https://twitter.com/lorencerri'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                        >
-                            Twitter
-                        </a>
+                        {external.map((item, index) => (
+                            <>
+                                <a
+                                    href={item[0]}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    {item[1]}
+                                </a>
+                                {index % 2 === 0 && external[index + 1] && (
+                                    <>&nbsp;&bull;&nbsp;</>
+                                )}
+                            </>
+                        ))}
                     </font>
                 </AppHeaderContainer>
 
@@ -89,6 +93,7 @@ export const App = () => {
                     ))}
                 </TagsContainer>
             </AppHeader>
+
             {/* Projects */}
             <FadeIn key={filter} delay={150}>
                 <ul>
