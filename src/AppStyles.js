@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import FadeIn from 'react-fade-in';
 
 export const AppHeaderTitle = styled.div`
-    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 `;
 
 export const AppHeaderContainer = styled.div`
@@ -34,8 +35,8 @@ export const AppHeader = styled.div`
 
 export const ExternalItem = styled.span`
     margin: 0px 10px;
-    font-size: 30px;
-    font-family: 'Maghrib';
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 `;
 
 export const CardsContainer = styled(FadeIn)`
