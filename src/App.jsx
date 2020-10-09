@@ -8,7 +8,6 @@ import {
     AppHeader,
     AppHeaderContainer,
     AppHeaderTitle,
-    VerticalSpan,
     SVG,
     TagsContainer,
     Tags,
@@ -70,27 +69,25 @@ export const App = () => {
                         </ExternalItem>
                     ))}
                 </AppHeaderContainer>
-                <TagsContainer>
-                    <Tags>
-                        <VerticalSpan>Filter: &nbsp;</VerticalSpan>
-                        {tags.map(tag => (
-                            <Tooltip title={tag.tooltip}>
-                                <SVG
-                                    src={tag.icon}
-                                    alt={tag.name}
-                                    key={tag.name}
-                                    toggled={filter === tag.name}
-                                    onClick={() => {
-                                        if (filter === tag.name)
-                                            setFilter(null);
-                                        else setFilter(tag.name);
-                                    }}
-                                />
-                            </Tooltip>
-                        ))}
-                    </Tags>
-                </TagsContainer>
             </AppHeader>
+            <TagsContainer>
+                <Tags>
+                    {tags.map(tag => (
+                        <Tooltip title={tag.tooltip}>
+                            <SVG
+                                src={tag.icon}
+                                alt={tag.name}
+                                key={tag.name}
+                                toggled={filter === tag.name}
+                                onClick={() => {
+                                    if (filter === tag.name) setFilter(null);
+                                    else setFilter(tag.name);
+                                }}
+                            />
+                        </Tooltip>
+                    ))}
+                </Tags>
+            </TagsContainer>
             <CardsContainer wrapperTag='ul' key={filter} delay={100}>
                 {projects
                     .filter(p => !filter || p.tag === filter)
