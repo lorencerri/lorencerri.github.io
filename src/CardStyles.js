@@ -16,8 +16,8 @@ export const CardContainer = styled.li`
     line-height: 1.5;
     color: #aba499;
     margin: 5px;
-    min-width: 33vw;
-    width: 99vw;
+    min-width: 32vw;
+    width: 96vw;
     max-width: 473px;
 `;
 
