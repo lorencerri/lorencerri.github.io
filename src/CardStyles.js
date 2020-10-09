@@ -19,7 +19,7 @@ export const CardContainer = styled.li`
     min-width: 30vw;
     width: 90vw;
     max-width: 473px;
-    height: 135px;
+    min-height: 135px;
 `;
 
 export const CardTitleContainer = styled.div`
