@@ -73,7 +73,7 @@ export const App = () => {
             <TagsContainer>
                 <Tags>
                     {tags.map(tag => (
-                        <Tooltip title={tag.tooltip}>
+                        <Tooltip title={`Filter: ${tag.tooltip}`}>
                             <SVG
                                 src={tag.icon}
                                 alt={tag.name}
