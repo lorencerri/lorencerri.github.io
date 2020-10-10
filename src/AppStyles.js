@@ -37,6 +37,15 @@ export const ExternalItem = styled.span`
 
 export const CardsContainer = styled(FadeIn)`
     margin-bottom: 20px;
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(473px, 100%), 1fr));
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
 `;
 
 export const Tags = styled.div`
