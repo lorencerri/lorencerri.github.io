@@ -27,7 +27,11 @@ const Card = ({
 }) => (
     <CardContainer>
         <CardTitleContainer>
-            <SVG header src={require(`./icons/${icon}.svg`)} alt={title} />
+            <SVG
+                header
+                src={require(`../Assets/Icons/${icon}.svg`)}
+                alt={title}
+            />
             <CardTitle>
                 <CardTitleAnchor
                     href={link}
@@ -48,7 +52,7 @@ const Card = ({
                 <Tooltip title={i.alt}>
                     <StatsContainer key={`${title}-stat-${index}`}>
                         <SVG
-                            src={require(`./icons/${i.icon}.svg`)}
+                            src={require(`../Assets/Icons/${i.icon}.svg`)}
                             alt={i.alt}
                         />
                         <CenterSpan>{i.text}</CenterSpan>

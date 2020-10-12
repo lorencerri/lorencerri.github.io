@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from './colors.json';
+import colors from '../Assets/Data/colors';
 
 export const CenterSpan = styled.span`
     vertical-align: middle;
