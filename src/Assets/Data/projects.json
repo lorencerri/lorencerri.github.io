@@ -19,7 +19,7 @@
         "tag": "npm",
         "icon": "npm",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.db",
         "stats": [
             { "icon": "cloud-download", "text": "1.2m", "alt": "Downloads" },
@@ -35,7 +35,7 @@
         "tag": "discord",
         "icon": "discord-logo",
         "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://top.gg/bot/captcha",
         "stats": [
             { "icon": "home", "text": "36,224", "alt": "Servers" },
@@ -51,7 +51,7 @@
         "tag": "discord",
         "icon": "github_badge",
         "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/discord-guardian",
         "stats": [
             { "icon": "star-o", "text": "23", "alt": "Stars" },
@@ -68,7 +68,7 @@
         "tag": "npm",
         "icon": "npm",
         "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.hook",
         "stats": [
             { "icon": "cloud-download", "text": "174k", "alt": "Downloads" },
@@ -84,7 +84,7 @@
         "tag": "powercord",
         "icon": "github_badge",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-reverse-image-search",
         "stats": [
             {
@@ -99,7 +99,7 @@
         "tag": "powercord",
         "icon": "github_badge",
         "description": "Open spotify links in the spotify application instead of the web browser.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-open-in-spotify",
         "stats": [
             {
@@ -114,7 +114,7 @@
         "tag": "powercord",
         "icon": "github_badge",
         "description": "A simple plugin that displays useful information as tooltips in messages.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-message-tooltips",
         "stats": [
             {
@@ -129,12 +129,27 @@
         "tag": "npm",
         "icon": "npm",
         "description": "A simple helper package for generating lists in JIMP.",
-        "language": "JavaScript",
+        "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/list-gen",
         "stats": [
             {
                 "icon": "calendar",
                 "text": "October 5th, 2020",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
+        "title": "lorencerri.github.io",
+        "tag": "",
+        "icon": "github_badge",
+        "description": "A single-page React application showcasing some of my notable projects.",
+        "language": { "text": "React", "color": "#61dafb" },
+        "link": "https://github.com/lorencerri/lorencerri.github.io",
+        "stats": [
+            {
+                "icon": "calendar",
+                "text": "September 19th, 2020",
                 "alt": "Initial Release"
             }
         ]

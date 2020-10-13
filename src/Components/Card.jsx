@@ -45,8 +45,8 @@ const Card = ({
         <CardDescription>{description}</CardDescription>
         <CardStatsContainer>
             <CardLanguageContainer language={language}>
-                <CardLanguageSymbol language={language} />
-                <CenterSpan>{language}</CenterSpan>
+                <CardLanguageSymbol color={language.color} />
+                <CenterSpan>{language.text}</CenterSpan>
             </CardLanguageContainer>
             {stats.map((i, index) => (
                 <Tooltip title={i.alt}>

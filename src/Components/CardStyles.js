@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import colors from '../Assets/Data/colors';
 
 export const CenterSpan = styled.span`
     vertical-align: middle;
@@ -67,8 +66,7 @@ export const CardLanguageSymbol = styled.span`
     width: 12px;
     height: 12px;
     border-radius: 100%;
-    background-color: ${({ language }) =>
-        language ? colors[language].color : ''};
+    background-color: ${({ color }) => color || ''};
     display: inline-block;
     top: 3px;
     position: relative;
