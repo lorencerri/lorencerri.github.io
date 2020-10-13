@@ -17,7 +17,10 @@ export const CardContainer = styled.li`
     min-width: min(565.8px, 30vw);
     width: 90vw;
     max-width: 473px;
-    min-height: 135px;
+    min-height: max(
+        135px,
+        1%
+    ); // TODO: Properly set card heights to align with lowest in row
 `;
 
 export const CardTitleContainer = styled.div`
