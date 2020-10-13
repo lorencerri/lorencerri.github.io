@@ -33,3 +33,8 @@ export const ExternalItem = styled.span`
     font-size: 20px;
     font-family: 'Kaushan Script', cursive;
 `;
+
+export const FooterText = styled.div`
+    margin: 20px 0 15px 0;
+    color: #aba499;
+`;
