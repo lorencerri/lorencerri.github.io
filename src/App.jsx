@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import FadeIn from 'react-fade-in';
 
 import {
     AppContainer,
@@ -7,7 +6,6 @@ import {
     AppHeaderContainer,
     AppHeaderTitle,
     ExternalItem,
-    FooterText,
 } from './AppStyles';
 
 import Projects from './Components/Projects';
@@ -47,16 +45,7 @@ export const App = () => {
                     {extItems}
                 </AppHeaderContainer>
             </AppHeader>
-            <Projects />
-            <FadeIn delay={1000}>
-                <FooterText>
-                    Made with{' '}
-                    <span role='img' aria-label='heart'>
-                        ❤️
-                    </span>{' '}
-                    in React &bull; {visits} visits
-                </FooterText>
-            </FadeIn>
+            <Projects visits={visits} />
         </AppContainer>
     );
 };

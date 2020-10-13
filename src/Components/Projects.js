@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Tooltip } from 'antd';
 import { useHistory } from 'react-router-dom';
+import FadeIn from 'react-fade-in';
 
 import Card from './Card';
-import { TagsContainer, Tags, CardsContainer, SVG } from './ProjectsStyles';
+import {
+    TagsContainer,
+    Tags,
+    CardsContainer,
+    SVG,
+    FooterText,
+} from './ProjectsStyles';
 
 import projects from '../Assets/Data/projects';
 import NPMSVG from '../Assets/Icons/npm.svg';
@@ -28,7 +35,7 @@ const tags = [
     },
 ];
 
-const Projects = () => {
+const Projects = ({ visits }) => {
     const history = useHistory();
 
     const [filter, setFilter] = useState(
@@ -38,6 +45,8 @@ const Projects = () => {
     useEffect(() => {
         history.push(filter ? `/?tag=${filter}` : '');
     }, [history, filter]);
+
+    const filtered = projects.filter(p => !filter || p.tag === filter);
 
     return (
         <>
@@ -60,27 +69,38 @@ const Projects = () => {
                 </Tags>
             </TagsContainer>
             <CardsContainer wrapperTag='ul' key={filter} delay={100}>
-                {projects
-                    .filter(p => !filter || p.tag === filter)
-                    .map(
-                        (
-                            { title, description, link, icon, language, stats },
-                            index
-                        ) => (
-                            <Card
-                                key={`project-${index}`}
-                                title={title}
-                                description={description}
-                                link={link}
-                                icon={icon}
-                                language={language}
-                                stats={stats}
-                            />
-                        )
-                    )}
+                {filtered.map(
+                    (
+                        { title, description, link, icon, language, stats },
+                        index
+                    ) => (
+                        <Card
+                            key={`project-${index}`}
+                            title={title}
+                            description={description}
+                            link={link}
+                            icon={icon}
+                            language={language}
+                            stats={stats}
+                        />
+                    )
+                )}
             </CardsContainer>
+            <FadeIn key={filtered.length} delay={filtered.length * 100 + 100}>
+                <FooterText>
+                    Made with{' '}
+                    <span role='img' aria-label='heart'>
+                        ❤️
+                    </span>{' '}
+                    in React &bull; {visits} visits
+                </FooterText>
+            </FadeIn>
         </>
     );
+};
+
+Projects.propTypes = {
+    visits: Number,
 };
 
 export default Projects;
