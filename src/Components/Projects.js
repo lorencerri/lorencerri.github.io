@@ -48,6 +48,10 @@ const Projects = ({ visits }) => {
 
     const filtered = projects.filter(p => !filter || p.tag === filter);
 
+    const version = [...visits.toString()];
+    version.splice(version.length - 2, 0, '.');
+    version.splice(version.length - 1, 0, '.');
+
     return (
         <>
             <TagsContainer>
@@ -92,7 +96,7 @@ const Projects = ({ visits }) => {
                     <span role='img' aria-label='heart'>
                         ❤️
                     </span>{' '}
-                    in React &bull; {visits} visits
+                    in React &bull; v{version.join('')}
                 </FooterText>
             </FadeIn>
         </>
