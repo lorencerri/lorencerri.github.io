@@ -6,7 +6,7 @@ export const CenterSpan = styled.span`
 `;
 
 export const CardContainer = styled.li`
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Karla', sans-serif;
     border: 1px solid #373c3e;
     border-radius: 6px;
     background: #181a1b;
