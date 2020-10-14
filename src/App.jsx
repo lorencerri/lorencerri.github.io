@@ -26,7 +26,7 @@ const extItems = external.map(item => (
 ));
 
 export const App = () => {
-    const [visits, setVisits] = useState(0);
+    const [visits, setVisits] = useState(100);
 
     useEffect(() => {
         const fetchVisits = async () => {
