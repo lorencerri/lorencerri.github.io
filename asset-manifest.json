@@ -1,33 +1,35 @@
 {
   "files": {
-    "main.js": "/static/js/main.2e289b41.chunk.js",
-    "main.js.map": "/static/js/main.2e289b41.chunk.js.map",
+    "main.js": "/static/js/main.9746280b.chunk.js",
+    "main.js.map": "/static/js/main.9746280b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47ddc481.js",
     "runtime-main.js.map": "/static/js/runtime-main.47ddc481.js.map",
     "static/css/2.ab5aeb53.chunk.css": "/static/css/2.ab5aeb53.chunk.css",
-    "static/js/2.6cd28eda.chunk.js": "/static/js/2.6cd28eda.chunk.js",
-    "static/js/2.6cd28eda.chunk.js.map": "/static/js/2.6cd28eda.chunk.js.map",
+    "static/js/2.f88851f4.chunk.js": "/static/js/2.f88851f4.chunk.js",
+    "static/js/2.f88851f4.chunk.js.map": "/static/js/2.f88851f4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d53263e37cb1885715438ef3e42fab42.js": "/precache-manifest.d53263e37cb1885715438ef3e42fab42.js",
+    "precache-manifest.4f83b797e5f4af40411a32ef69ef74c6.js": "/precache-manifest.4f83b797e5f4af40411a32ef69ef74c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ab5aeb53.chunk.css.map": "/static/css/2.ab5aeb53.chunk.css.map",
-    "static/js/2.6cd28eda.chunk.js.LICENSE.txt": "/static/js/2.6cd28eda.chunk.js.LICENSE.txt",
-    "static/media/calendar.svg": "/static/media/calendar.6bfff213.svg",
-    "static/media/cloud-download.svg": "/static/media/cloud-download.e807bf72.svg",
+    "static/js/2.f88851f4.chunk.js.LICENSE.txt": "/static/js/2.f88851f4.chunk.js.LICENSE.txt",
+    "static/media/calendar-alt-solid.svg": "/static/media/calendar-alt-solid.c0735707.svg",
+    "static/media/calendar-solid.svg": "/static/media/calendar-solid.b05e8595.svg",
+    "static/media/code-branch-solid.svg": "/static/media/code-branch-solid.4871712c.svg",
     "static/media/comments-solid.svg": "/static/media/comments-solid.08515c4f.svg",
-    "static/media/discord-logo.svg": "/static/media/discord-logo.f8389ca1.svg",
-    "static/media/git_branch.svg": "/static/media/git_branch.b551d0fc.svg",
-    "static/media/github_badge.svg": "/static/media/github_badge.a1bbd715.svg",
-    "static/media/home.svg": "/static/media/home.393f3192.svg",
-    "static/media/npm.svg": "/static/media/npm.9a16895f.svg",
+    "static/media/discord-brands.svg": "/static/media/discord-brands.33a5aa61.svg",
+    "static/media/download-solid.svg": "/static/media/download-solid.29edbd0f.svg",
+    "static/media/eye-solid.svg": "/static/media/eye-solid.9031ec88.svg",
+    "static/media/github-brands.svg": "/static/media/github-brands.ec5bc1b3.svg",
+    "static/media/home-solid.svg": "/static/media/home-solid.fa2c07da.svg",
+    "static/media/npm-brands.svg": "/static/media/npm-brands.d36a9952.svg",
     "static/media/powercord.svg": "/static/media/powercord.c068dc3d.svg",
-    "static/media/star-o.svg": "/static/media/star-o.d4a4e4d4.svg",
-    "static/media/users.svg": "/static/media/users.9e9005f6.svg"
+    "static/media/star-solid.svg": "/static/media/star-solid.f10a25eb.svg",
+    "static/media/users-solid.svg": "/static/media/users-solid.22e09537.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.47ddc481.js",
     "static/css/2.ab5aeb53.chunk.css",
-    "static/js/2.6cd28eda.chunk.js",
-    "static/js/main.2e289b41.chunk.js"
+    "static/js/2.f88851f4.chunk.js",
+    "static/js/main.9746280b.chunk.js"
   ]
 }
