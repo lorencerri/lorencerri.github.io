@@ -5,6 +5,8 @@ export const CenterSpan = styled.span`
 `;
 
 export const CardContainer = styled.li`
+    display: flex;
+    flex-direction: column;
     font-family: 'Karla', sans-serif;
     border: 1px solid #373c3e;
     border-radius: 6px;
@@ -53,6 +55,7 @@ export const CardDescription = styled.div`
 `;
 
 export const CardStatsContainer = styled.div`
+    margin-top: auto;
     font-size: 12px;
     display: flex;
 `;
