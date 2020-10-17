@@ -11,3 +11,7 @@ A single page React application showcasing some of my notable projects.
 **Running:** `yarn start`
 
 **Deploying:** `yarn deploy`
+
+## Icons
+
+Provided by **Font Awesome** ([License](https://fontawesome.com/license))

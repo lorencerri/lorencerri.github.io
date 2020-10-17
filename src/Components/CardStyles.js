@@ -43,7 +43,8 @@ export const CardTitleAnchor = styled.a`
 export const SVG = styled.img`
     filter: brightness(0) saturate(100%) invert(88%) sepia(0%) saturate(0%)
         hue-rotate(34deg) brightness(95%) contrast(90%);
-    margin-right: ${({ header }) => (header ? '8px' : '3px')};
+    margin-right: ${({ header }) => (header ? '8px' : '4px')};
+    height: 16px;
     width: 16px;
     vertical-align: middle;
 `;

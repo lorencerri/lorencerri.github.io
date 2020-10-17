@@ -40,9 +40,10 @@ const Card = ({
                 const res = await fetch(item.url);
                 const json = await res.json();
 
-                setState({
+                setState(cur => ({
+                    ...cur,
                     [item.url + item.path]: get(json, item.path),
-                });
+                }));
             }
         };
 

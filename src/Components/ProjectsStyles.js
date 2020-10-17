@@ -38,8 +38,3 @@ export const SVG = styled.img`
     margin: 0 5px;
     cursor: pointer;
 `;
-
-export const FooterText = styled.div`
-    margin: 20px 0 15px 0;
-    color: #aba499;
-`;

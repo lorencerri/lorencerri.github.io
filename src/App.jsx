@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import {
     AppContainer,
@@ -15,8 +15,6 @@ const external = [
     ['https://twitter.com/lorencerri', 'Twitter'],
 ];
 
-const VISITS_API = 'https://api.countapi.xyz/hit/lorencerri.github.io/visits';
-
 const extItems = external.map(item => (
     <ExternalItem>
         <a href={item[0]} target='_blank' rel='noopener noreferrer'>
@@ -25,27 +23,14 @@ const extItems = external.map(item => (
     </ExternalItem>
 ));
 
-export const App = () => {
-    const [visits, setVisits] = useState(100);
-
-    useEffect(() => {
-        const fetchVisits = async () => {
-            const res = await fetch(VISITS_API);
-            const out = await res.json();
-            if (out?.value) setVisits(out.value);
-        };
-        fetchVisits();
-    }, []);
-
-    return (
-        <AppContainer>
-            <AppHeader>
-                <AppHeaderContainer>
-                    <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
-                    {extItems}
-                </AppHeaderContainer>
-            </AppHeader>
-            <Projects visits={visits} />
-        </AppContainer>
-    );
-};
+export const App = () => (
+    <AppContainer>
+        <AppHeader>
+            <AppHeaderContainer>
+                <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
+                {extItems}
+            </AppHeaderContainer>
+        </AppHeader>
+        <Projects />
+    </AppContainer>
+);

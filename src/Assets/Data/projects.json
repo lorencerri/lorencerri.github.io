@@ -2,11 +2,11 @@
     {
         "title": "Plexi Development",
         "tag": "discord",
-        "icon": "discord-logo",
+        "icon": "discord-brands",
         "description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
         "link": "https://discord.gg/plexidev",
         "stats": [
-            { "icon": "users", "text": "25,767", "alt": "Members" },
+            { "icon": "users-solid", "text": "25,767", "alt": "Members" },
             {
                 "icon": "comments-solid",
                 "text": {
@@ -16,7 +16,7 @@
                 "alt": "Online"
             },
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "August 5th, 2017",
                 "alt": "Initial Release"
             }
@@ -25,14 +25,14 @@
     {
         "title": "quick.db",
         "tag": "npm",
-        "icon": "npm",
+        "icon": "npm-brands",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.db",
         "stats": [
-            { "icon": "cloud-download", "text": "1.2m", "alt": "Downloads" },
+            { "icon": "download-solid", "text": "1.2m", "alt": "Downloads" },
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "October 18th, 2017",
                 "alt": "Initial Release"
             }
@@ -41,14 +41,14 @@
     {
         "title": "Server Captcha Bot",
         "tag": "discord",
-        "icon": "discord-logo",
+        "icon": "discord-brands",
         "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://top.gg/bot/captcha",
         "stats": [
-            { "icon": "home", "text": "36,224", "alt": "Servers" },
+            { "icon": "home-solid", "text": "36,224", "alt": "Servers" },
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "November 14th, 2018",
                 "alt": "Initial Release"
             }
@@ -57,22 +57,29 @@
     {
         "title": "discord-guardian",
         "tag": "discord",
-        "icon": "github_badge",
+        "icon": "github-brands",
         "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/discord-guardian",
         "stats": [
             {
-                "icon": "star-o",
+                "icon": "star-solid",
                 "text": {
                     "url": "https://api.github.com/repos/lorencerri/discord-guardian",
                     "path": "stargazers_count"
                 },
                 "alt": "Stars"
             },
-            { "icon": "git_branch", "text": "8", "alt": "Forks" },
             {
-                "icon": "calendar",
+                "icon": "code-branch-solid",
+                "text": {
+                    "url": "https://api.github.com/repos/lorencerri/discord-guardian",
+                    "path": "forks_count"
+                },
+                "alt": "Forks"
+            },
+            {
+                "icon": "calendar-alt-solid",
                 "text": "March 20th, 2020",
                 "alt": "Initial Release"
             }
@@ -81,14 +88,14 @@
     {
         "title": "quick.hook",
         "tag": "npm",
-        "icon": "npm",
+        "icon": "npm-brands",
         "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.hook",
         "stats": [
-            { "icon": "cloud-download", "text": "174k", "alt": "Downloads" },
+            { "icon": "download-solid", "text": "174k", "alt": "Downloads" },
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "March 21st, 2018",
                 "alt": "Initial Release"
             }
@@ -97,13 +104,13 @@
     {
         "title": "powercord-reverse-image-search",
         "tag": "powercord",
-        "icon": "github_badge",
+        "icon": "github-brands",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-reverse-image-search",
         "stats": [
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "September 18th, 2020",
                 "alt": "Initial Release"
             }
@@ -112,13 +119,13 @@
     {
         "title": "powercord-open-in-spotify",
         "tag": "powercord",
-        "icon": "github_badge",
+        "icon": "github-brands",
         "description": "Open spotify links in the spotify application instead of the web browser.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-open-in-spotify",
         "stats": [
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "September 20th, 2020",
                 "alt": "Initial Release"
             }
@@ -127,13 +134,13 @@
     {
         "title": "powercord-message-tooltips",
         "tag": "powercord",
-        "icon": "github_badge",
+        "icon": "github-brands",
         "description": "A simple plugin that displays useful information as tooltips in messages.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-message-tooltips",
         "stats": [
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "September 21st, 2020",
                 "alt": "Initial Release"
             }
@@ -142,13 +149,13 @@
     {
         "title": "list-gen",
         "tag": "npm",
-        "icon": "npm",
+        "icon": "npm-brands",
         "description": "A simple helper package for generating lists in JIMP.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/list-gen",
         "stats": [
             {
-                "icon": "calendar",
+                "icon": "calendar-alt-solid",
                 "text": "October 5th, 2020",
                 "alt": "Initial Release"
             }
@@ -157,13 +164,21 @@
     {
         "title": "lorencerri.github.io",
         "tag": "",
-        "icon": "github_badge",
+        "icon": "github-brands",
         "description": "A single-page React application showcasing some of my notable projects.",
         "language": { "text": "React", "color": "#61dafb" },
         "link": "https://github.com/lorencerri/lorencerri.github.io",
         "stats": [
             {
-                "icon": "calendar",
+                "icon": "eye-solid",
+                "text": {
+                    "url": "https://api.countapi.xyz/hit/lorencerri.github.io/visits",
+                    "path": "value",
+                    "alt": "Views"
+                }
+            },
+            {
+                "icon": "calendar-alt-solid",
                 "text": "September 19th, 2020",
                 "alt": "Initial Release"
             }

@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Tooltip } from 'antd';
 import { useHistory } from 'react-router-dom';
-import FadeIn from 'react-fade-in';
 
 import Card from './Card';
-import {
-    TagsContainer,
-    Tags,
-    CardsContainer,
-    SVG,
-    FooterText,
-} from './ProjectsStyles';
+import { TagsContainer, Tags, CardsContainer, SVG } from './ProjectsStyles';
 
 import projects from '../Assets/Data/projects';
-import NPMSVG from '../Assets/Icons/npm.svg';
-import DiscordSVG from '../Assets/Icons/discord-logo.svg';
+import NPMSVG from '../Assets/Icons/npm-brands.svg';
+import DiscordSVG from '../Assets/Icons/discord-brands.svg';
 import PowercordSVG from '../Assets/Icons/powercord.svg';
 
 const tags = [
@@ -35,7 +28,7 @@ const tags = [
     },
 ];
 
-const Projects = ({ visits }) => {
+const Projects = () => {
     const history = useHistory();
 
     const [filter, setFilter] = useState(
@@ -47,10 +40,6 @@ const Projects = ({ visits }) => {
     }, [history, filter]);
 
     const filtered = projects.filter(p => !filter || p.tag === filter);
-
-    const version = [...visits.toString()];
-    version.splice(version.length - 2, 0, '.');
-    version.splice(version.length - 1, 0, '.');
 
     return (
         <>
@@ -90,21 +79,8 @@ const Projects = ({ visits }) => {
                     )
                 )}
             </CardsContainer>
-            <FadeIn key={filtered.length} delay={filtered.length * 100 + 100}>
-                <FooterText>
-                    Made with{' '}
-                    <span role='img' aria-label='heart'>
-                        ❤️
-                    </span>{' '}
-                    in React &bull; v{version.join('')}
-                </FooterText>
-            </FadeIn>
         </>
     );
-};
-
-Projects.propTypes = {
-    visits: Number,
 };
 
 export default Projects;
