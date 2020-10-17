@@ -8,10 +8,6 @@
         "stats": [
             { "icon": "users-solid", "text": "25,767", "alt": "Members" },
             {
-                "icon": "comments-solid",
-                "alt": "Online"
-            },
-            {
                 "icon": "calendar-alt-solid",
                 "text": "August 5th, 2017",
                 "alt": "Initial Release"
