@@ -9,10 +9,6 @@
             { "icon": "users-solid", "text": "25,767", "alt": "Members" },
             {
                 "icon": "comments-solid",
-                "text": {
-                    "url": "https://discordapp.com/api/guilds/343572980351107077/widget.json",
-                    "path": "presence_count"
-                },
                 "alt": "Online"
             },
             {
