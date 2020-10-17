@@ -15,8 +15,8 @@ const external = [
     ['https://twitter.com/lorencerri', 'Twitter'],
 ];
 
-const extItems = external.map(item => (
-    <ExternalItem>
+const extItems = external.map((item, index) => (
+    <ExternalItem key={`external-${index}`}>
         <a href={item[0]} target='_blank' rel='noopener noreferrer'>
             {item[1]}
         </a>

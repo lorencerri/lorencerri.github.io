@@ -46,8 +46,11 @@ const Projects = () => {
         <>
             <TagsContainer>
                 <Tags>
-                    {tags.map(tag => (
-                        <Tooltip title={`Filter: ${tag.tooltip}`}>
+                    {tags.map((tag, index) => (
+                        <Tooltip
+                            title={`Filter: ${tag.tooltip}`}
+                            key={`tag-${index}`}
+                        >
                             <SVG
                                 src={tag.icon}
                                 alt={tag.name}

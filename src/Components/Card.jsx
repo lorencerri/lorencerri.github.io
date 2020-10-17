@@ -52,8 +52,8 @@ const Card = ({
     }, [stats]);
 
     const cardStats = stats.map((i, index) => (
-        <Tooltip title={i.alt}>
-            <StatsContainer key={`${title}-stat-${index}`}>
+        <Tooltip title={i.alt} key={`${title}-stat-${index}`}>
+            <StatsContainer>
                 <SVG
                     src={require(`../Assets/Icons/${i.icon}.svg`)}
                     alt={i.alt}
@@ -102,7 +102,7 @@ Card.propTypes = {
     description: PropTypes.string,
     link: PropTypes.string,
     icon: PropTypes.string,
-    language: PropTypes.string,
+    language: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     stats: PropTypes.arrayOf(Object),
 };
 
