@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Tooltip } from 'antd';
 import { useHistory } from 'react-router-dom';
+import FadeIn from 'react-fade-in';
 
 import Card from './Card';
 import { TagsContainer, Tags, CardsContainer, SVG } from './ProjectsStyles';
@@ -61,24 +62,26 @@ const Projects = () => {
                     ))}
                 </Tags>
             </TagsContainer>
-            <CardsContainer wrapperTag='ul' key={filter} delay={100}>
-                {filtered.map(
-                    (
-                        { title, description, link, icon, language, stats },
-                        index
-                    ) => (
-                        <Card
-                            key={`project-${index}`}
-                            title={title}
-                            description={description}
-                            link={link}
-                            icon={icon}
-                            language={language}
-                            stats={stats}
-                        />
-                    )
-                )}
-            </CardsContainer>
+            <FadeIn key={filter} delay={100}>
+                <CardsContainer>
+                    {filtered.map(
+                        (
+                            { title, description, link, icon, language, stats },
+                            index
+                        ) => (
+                            <Card
+                                key={`project-${index}`}
+                                title={title}
+                                description={description}
+                                link={link}
+                                icon={icon}
+                                language={language}
+                                stats={stats}
+                            />
+                        )
+                    )}
+                </CardsContainer>
+            </FadeIn>
         </>
     );
 };

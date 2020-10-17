@@ -1,4 +1,3 @@
-import FadeIn from 'react-fade-in';
 import styled from 'styled-components';
 
 export const TagsContainer = styled.div`
@@ -6,7 +5,7 @@ export const TagsContainer = styled.div`
     display: flex;
 `;
 
-export const CardsContainer = styled(FadeIn)`
+export const CardsContainer = styled.ul`
     margin-bottom: 20px;
     display: grid;
     max-width: 1200px;
