@@ -29,6 +29,7 @@ const Card = ({
     const [state, setState] = useState({});
 
     useEffect(() => {
+        // TODO: Don't call every render
         const fetchStats = async () => {
             const needToFetch = stats.filter(
                 item => typeof item.text === 'object'
