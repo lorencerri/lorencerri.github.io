@@ -165,9 +165,9 @@
                 "icon": "eye-solid",
                 "text": {
                     "url": "https://api.countapi.xyz/hit/lorencerri.github.io/visits",
-                    "path": "value",
-                    "alt": "Views"
-                }
+                    "path": "value"
+                },
+                "alt": "Views"
             },
             {
                 "icon": "calendar-alt-solid",
