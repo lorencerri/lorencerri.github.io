@@ -3,7 +3,6 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@ant-design/icons": "^4.2.2",
         "antd": "^4.6.4",
         "lodash": "^4.17.20",
         "prop-types": "^15.7.2",
