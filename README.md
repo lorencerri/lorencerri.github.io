@@ -14,4 +14,4 @@ A single page React application showcasing some of my notable projects.
 
 ## Icons
 
-Provided by **Font Awesome** ([License](https://fontawesome.com/license))
+Provided by [**Font Awesome**](https://fontawesome.com) ([License](https://fontawesome.com/license))
