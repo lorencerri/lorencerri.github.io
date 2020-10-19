@@ -3,7 +3,7 @@ import { Tooltip } from 'antd';
 import { useHistory } from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 
-import Card from './Card';
+import { MemoizedCard } from './Card';
 import { TagsContainer, Tags, CardsContainer, SVG } from './ProjectsStyles';
 
 import projects from '../Assets/Data/projects';
@@ -72,7 +72,7 @@ const Projects = () => {
                             { title, description, link, icon, language, stats },
                             index
                         ) => (
-                            <Card
+                            <MemoizedCard
                                 key={`project-${index}`}
                                 title={title}
                                 description={description}

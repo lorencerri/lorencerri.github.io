@@ -1,6 +1,6 @@
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable global-require */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import { get } from 'lodash';
 import { Tooltip } from 'antd';
 import PropTypes from 'prop-types';
@@ -106,4 +106,4 @@ Card.propTypes = {
     stats: PropTypes.arrayOf(Object),
 };
 
-export default Card;
+export const MemoizedCard = memo(Card);
