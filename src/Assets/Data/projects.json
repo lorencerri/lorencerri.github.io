@@ -155,7 +155,7 @@
     },
     {
         "title": "lorencerri.github.io",
-        "tag": "",
+        "tag": "website",
         "icon": "github-brands",
         "description": "A single-page React application showcasing some of my notable projects.",
         "language": { "text": "React", "color": "#61dafb" },
