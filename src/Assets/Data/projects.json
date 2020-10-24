@@ -2,13 +2,13 @@
     {
         "title": "Plexi Development",
         "tag": "discord",
-        "icon": "discord-brands",
+        "icon": "fab fa-discord",
         "description": "A development community within Discord, primarily relating to JavaScript and NodeJS.",
         "link": "https://discord.gg/plexidev",
         "stats": [
-            { "icon": "users-solid", "text": "25,767", "alt": "Members" },
+            { "icon": "fas fa-users", "text": "25,767", "alt": "Members" },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "August 5th, 2017",
                 "alt": "Initial Release"
             }
@@ -17,14 +17,14 @@
     {
         "title": "quick.db",
         "tag": "npm",
-        "icon": "npm-brands",
+        "icon": "fab fa-npm",
         "description": "An easy, open-sourced, Node.js database designed for complete beginners getting into the concept of coding.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.db",
         "stats": [
-            { "icon": "download-solid", "text": "1.2m", "alt": "Downloads" },
+            { "icon": "fas fa-download", "text": "1.2m", "alt": "Downloads" },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "October 18th, 2017",
                 "alt": "Initial Release"
             }
@@ -33,14 +33,14 @@
     {
         "title": "Server Captcha Bot",
         "tag": "discord",
-        "icon": "discord-brands",
+        "icon": "fab fa-discord",
         "description": "Prevents possible automated raids by requiring users to fill out a Captcha in their DMs before obtaining access to a server.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://top.gg/bot/captcha",
         "stats": [
-            { "icon": "home-solid", "text": "36,224", "alt": "Servers" },
+            { "icon": "fas fa-home", "text": "36,224", "alt": "Servers" },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "November 14th, 2018",
                 "alt": "Initial Release"
             }
@@ -49,13 +49,13 @@
     {
         "title": "discord-guardian",
         "tag": "discord",
-        "icon": "github-brands",
+        "icon": "fab fa-github",
         "description": "Set strict limits on administration actions such as bans and deletions with Guardian.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/discord-guardian",
         "stats": [
             {
-                "icon": "star-solid",
+                "icon": "fas fa-star",
                 "text": {
                     "url": "https://api.github.com/repos/lorencerri/discord-guardian",
                     "path": "stargazers_count"
@@ -63,7 +63,7 @@
                 "alt": "Stars"
             },
             {
-                "icon": "code-branch-solid",
+                "icon": "fas fa-code-branch",
                 "text": {
                     "url": "https://api.github.com/repos/lorencerri/discord-guardian",
                     "path": "forks_count"
@@ -71,7 +71,7 @@
                 "alt": "Forks"
             },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "March 20th, 2020",
                 "alt": "Initial Release"
             }
@@ -80,14 +80,14 @@
     {
         "title": "quick.hook",
         "tag": "npm",
-        "icon": "npm-brands",
+        "icon": "fab fa-npm",
         "description": "An extension for discord.js which allows developers to fully utilize webhooks.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/quick.hook",
         "stats": [
-            { "icon": "download-solid", "text": "174k", "alt": "Downloads" },
+            { "icon": "fas fa-download", "text": "174k", "alt": "Downloads" },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "March 21st, 2018",
                 "alt": "Initial Release"
             }
@@ -96,13 +96,13 @@
     {
         "title": "powercord-reverse-image-search",
         "tag": "powercord",
-        "icon": "github-brands",
+        "icon": "fab fa-github",
         "description": "A plugin for powercord which allows users to reverse image search media by right simply right clicking.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-reverse-image-search",
         "stats": [
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "September 18th, 2020",
                 "alt": "Initial Release"
             }
@@ -111,13 +111,13 @@
     {
         "title": "powercord-open-in-spotify",
         "tag": "powercord",
-        "icon": "github-brands",
+        "icon": "fab fa-github",
         "description": "Open spotify links in the spotify application instead of the web browser.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-open-in-spotify",
         "stats": [
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "September 20th, 2020",
                 "alt": "Initial Release"
             }
@@ -126,13 +126,13 @@
     {
         "title": "powercord-message-tooltips",
         "tag": "powercord",
-        "icon": "github-brands",
+        "icon": "fab fa-github",
         "description": "A simple plugin that displays useful information as tooltips in messages.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://github.com/lorencerri/powercord-message-tooltips",
         "stats": [
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "September 21st, 2020",
                 "alt": "Initial Release"
             }
@@ -141,13 +141,13 @@
     {
         "title": "list-gen",
         "tag": "npm",
-        "icon": "npm-brands",
+        "icon": "fab fa-npm",
         "description": "A simple helper package for generating lists in JIMP.",
         "language": { "text": "JavaScript", "color": "#f1e05a" },
         "link": "https://npmjs.org/list-gen",
         "stats": [
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "October 5th, 2020",
                 "alt": "Initial Release"
             }
@@ -156,13 +156,13 @@
     {
         "title": "lorencerri.github.io",
         "tag": "website",
-        "icon": "github-brands",
+        "icon": "fab fa-github",
         "description": "A single-page React application showcasing some of my notable projects.",
         "language": { "text": "React", "color": "#61dafb" },
         "link": "https://github.com/lorencerri/lorencerri.github.io",
         "stats": [
             {
-                "icon": "eye-solid",
+                "icon": "fas fa-eye",
                 "text": {
                     "url": "https://api.countapi.xyz/hit/lorencerri.github.io/visits",
                     "path": "value"
@@ -170,7 +170,7 @@
                 "alt": "Views"
             },
             {
-                "icon": "calendar-alt-solid",
+                "icon": "fas fa-calendar-alt",
                 "text": "September 19th, 2020",
                 "alt": "Initial Release"
             }
@@ -179,7 +179,7 @@
     {
         "title": "Support",
         "tag": ["npm", "discord", "powercord"],
-        "icon": "heart-solid",
+        "icon": "fas fa-heart",
         "description": "I work on these projects in my spare time. If you'd like to help with development-related costs, feel free to do so via BuyMeACoffee!",
         "language": { "text": "Coffee", "color": "#6f4e37" },
         "link": "https://www.buymeacoffee.com/lorencerri",

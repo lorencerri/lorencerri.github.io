@@ -1,5 +1,3 @@
-/* eslint-disable import/no-dynamic-require */
-/* eslint-disable global-require */
 import React, { useState, useEffect, memo } from 'react';
 import { get } from 'lodash';
 import { Tooltip } from 'antd';
@@ -58,12 +56,7 @@ const Card = ({
     const cardStats = stats.map((i, index) => (
         <Tooltip title={i.alt} key={`${title}-stat-${index}`}>
             <StatsContainer>
-                <SVG
-                    src={
-                        require(`../Assets/Icons/${i.icon}.svg`) /* TODO: Use font-awesome package */
-                    }
-                    alt={i.alt}
-                />
+                <SVG className={i.icon} alt={i.alt} />
                 <CenterSpan>
                     {typeof i.text === 'object'
                         ? state[i.text.url + i.text.path] || 'Loading...'
@@ -76,13 +69,7 @@ const Card = ({
     return (
         <CardContainer borderColor={borderColor}>
             <CardTitleContainer>
-                <SVG
-                    header
-                    src={
-                        require(`../Assets/Icons/${icon}.svg`) /* TODO: Use font-awesome package */
-                    }
-                    alt={title}
-                />
+                <SVG header className={icon} alt={title} />
                 <CardTitle>
                     <CardTitleAnchor
                         href={link}
