@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.6ed20ee5.chunk.js",
-    "main.js.map": "/static/js/main.6ed20ee5.chunk.js.map",
+    "main.js": "/static/js/main.a2c46ce5.chunk.js",
+    "main.js.map": "/static/js/main.a2c46ce5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47ddc481.js",
     "runtime-main.js.map": "/static/js/runtime-main.47ddc481.js.map",
-    "static/css/2.ab5aeb53.chunk.css": "/static/css/2.ab5aeb53.chunk.css",
-    "static/js/2.ad9fe997.chunk.js": "/static/js/2.ad9fe997.chunk.js",
-    "static/js/2.ad9fe997.chunk.js.map": "/static/js/2.ad9fe997.chunk.js.map",
+    "static/css/2.33180788.chunk.css": "/static/css/2.33180788.chunk.css",
+    "static/js/2.4e4bcce1.chunk.js": "/static/js/2.4e4bcce1.chunk.js",
+    "static/js/2.4e4bcce1.chunk.js.map": "/static/js/2.4e4bcce1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2835d1ffb6eae7f8a5f2b44d435261bf.js": "/precache-manifest.2835d1ffb6eae7f8a5f2b44d435261bf.js",
+    "precache-manifest.815109ec48e2325da0b80c99b5d0a8f8.js": "/precache-manifest.815109ec48e2325da0b80c99b5d0a8f8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.ab5aeb53.chunk.css.map": "/static/css/2.ab5aeb53.chunk.css.map",
-    "static/js/2.ad9fe997.chunk.js.LICENSE.txt": "/static/js/2.ad9fe997.chunk.js.LICENSE.txt",
+    "static/css/2.33180788.chunk.css.map": "/static/css/2.33180788.chunk.css.map",
+    "static/js/2.4e4bcce1.chunk.js.LICENSE.txt": "/static/js/2.4e4bcce1.chunk.js.LICENSE.txt",
     "static/media/calendar-alt-solid.svg": "/static/media/calendar-alt-solid.c0735707.svg",
     "static/media/calendar-solid.svg": "/static/media/calendar-solid.b05e8595.svg",
     "static/media/code-branch-solid.svg": "/static/media/code-branch-solid.4871712c.svg",
@@ -20,6 +20,7 @@
     "static/media/download-solid.svg": "/static/media/download-solid.29edbd0f.svg",
     "static/media/eye-solid.svg": "/static/media/eye-solid.9031ec88.svg",
     "static/media/github-brands.svg": "/static/media/github-brands.ec5bc1b3.svg",
+    "static/media/heart-solid.svg": "/static/media/heart-solid.5dbbbe23.svg",
     "static/media/home-solid.svg": "/static/media/home-solid.fa2c07da.svg",
     "static/media/npm-brands.svg": "/static/media/npm-brands.d36a9952.svg",
     "static/media/powercord.svg": "/static/media/powercord.c068dc3d.svg",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47ddc481.js",
-    "static/css/2.ab5aeb53.chunk.css",
-    "static/js/2.ad9fe997.chunk.js",
-    "static/js/main.6ed20ee5.chunk.js"
+    "static/css/2.33180788.chunk.css",
+    "static/js/2.4e4bcce1.chunk.js",
+    "static/js/main.a2c46ce5.chunk.js"
   ]
 }
