@@ -14,3 +14,5 @@ ReactDOM.render(
     </BrowserRouter>,
     document.getElementById('root')
 );
+
+// TODO: Performance improvements
