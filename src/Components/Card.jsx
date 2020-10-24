@@ -18,6 +18,9 @@ import {
     StatsContainer,
 } from './CardStyles';
 
+// TODO: Add jumbotron-style preview when clicking on cards
+// TODO: Add animation when hovering over cards
+
 const Card = ({
     title = '',
     description = '',
@@ -56,7 +59,9 @@ const Card = ({
         <Tooltip title={i.alt} key={`${title}-stat-${index}`}>
             <StatsContainer>
                 <SVG
-                    src={require(`../Assets/Icons/${i.icon}.svg`)}
+                    src={
+                        require(`../Assets/Icons/${i.icon}.svg`) /* TODO: Use font-awesome package */
+                    }
                     alt={i.alt}
                 />
                 <CenterSpan>
@@ -73,7 +78,9 @@ const Card = ({
             <CardTitleContainer>
                 <SVG
                     header
-                    src={require(`../Assets/Icons/${icon}.svg`)}
+                    src={
+                        require(`../Assets/Icons/${icon}.svg`) /* TODO: Use font-awesome package */
+                    }
                     alt={title}
                 />
                 <CardTitle>

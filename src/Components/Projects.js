@@ -59,6 +59,7 @@ const Projects = () => {
                             title={`Filter: ${tag.tooltip}`}
                             key={`tag-${index}`}
                         >
+                            {/* TODO: Use font-awesome package */}
                             <SVG
                                 src={tag.icon}
                                 alt={tag.name}
