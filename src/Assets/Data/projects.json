@@ -175,5 +175,14 @@
                 "alt": "Initial Release"
             }
         ]
+    },
+    {
+        "title": "Support",
+        "tag": ["npm", "discord", "powercord"],
+        "icon": "heart-solid",
+        "description": "I work on these projects in my spare time. If you'd like to help with development-related costs, feel free to do so via BuyMeACoffee!",
+        "language": { "text": "Coffee", "color": "#6f4e37" },
+        "link": "https://www.buymeacoffee.com/lorencerri",
+        "isNotDefault": true
     }
 ]

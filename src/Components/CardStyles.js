@@ -8,7 +8,7 @@ export const CardContainer = styled.li`
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
-    border: 1px solid #373c3e;
+    border: 1px solid;
     border-radius: 6px;
     background: #181a1b;
     padding: 16px;
@@ -19,6 +19,7 @@ export const CardContainer = styled.li`
     min-width: min(565.8px, 30vw);
     width: 90vw;
     max-width: 473px;
+    border-color: ${({ borderColor }) => borderColor || '#373c3e'};
 `;
 
 export const CardTitleContainer = styled.div`

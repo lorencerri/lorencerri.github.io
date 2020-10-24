@@ -25,6 +25,7 @@ const Card = ({
     icon = '',
     language = '',
     stats = [],
+    borderColor = '',
 }) => {
     const [state, setState] = useState({});
 
@@ -68,7 +69,7 @@ const Card = ({
     ));
 
     return (
-        <CardContainer>
+        <CardContainer borderColor={borderColor}>
             <CardTitleContainer>
                 <SVG
                     header
@@ -104,6 +105,7 @@ Card.propTypes = {
     icon: PropTypes.string,
     language: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     stats: PropTypes.arrayOf(Object),
+    borderColor: PropTypes.oneOfType([undefined, PropTypes.string]),
 };
 
 export const MemoizedCard = memo(Card);

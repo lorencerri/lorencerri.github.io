@@ -40,7 +40,15 @@ const Projects = () => {
         history.push(filter ? `/?tag=${filter}` : '');
     }, [history, filter]);
 
-    const filtered = projects.filter(p => !filter || p.tag === filter);
+    const filtered = projects
+        .filter(
+            p =>
+                !filter ||
+                (Array.isArray(p.tag)
+                    ? p.tag.includes(filter)
+                    : p.tag === filter)
+        )
+        .filter(p => (!filter ? !p.isNotDefault : true));
 
     return (
         <>
@@ -69,7 +77,15 @@ const Projects = () => {
                 <CardsContainer>
                     {filtered.map(
                         (
-                            { title, description, link, icon, language, stats },
+                            {
+                                title,
+                                description,
+                                link,
+                                icon,
+                                language,
+                                stats,
+                                borderColor,
+                            },
                             index
                         ) => (
                             <MemoizedCard
@@ -80,6 +96,7 @@ const Projects = () => {
                                 icon={icon}
                                 language={language}
                                 stats={stats}
+                                borderColor={borderColor}
                             />
                         )
                     )}
