@@ -21,7 +21,7 @@ export const CardsContainer = styled.ul`
 export const Tags = styled.div`
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
         sans-serif, Apple Color Emoji, Segoe UI Emoji;
-    margin: 10px 0 20px 0;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 1.5;
 `;
@@ -32,7 +32,7 @@ export const SVG = styled.img`
             toggled
                 ? 'invert(100%) sepia(0%) saturate(7500%) hue-rotate(302deg) brightness(117%) contrast(102%)'
                 : 'invert(56%) sepia(0%) saturate(38%) hue-rotate(166deg) brightness(89%) contrast(88%);'};
-    width: 24px;
+    width: 18px;
     vertical-align: middle;
     margin: 0 5px;
     cursor: pointer;

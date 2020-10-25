@@ -54,6 +54,7 @@ const Projects = () => {
         <>
             <TagsContainer>
                 <Tags>
+                    <span style={{ color: 'grey' }}>Filter:</span> &nbsp;
                     {tags.map((tag, index) => (
                         <Tooltip
                             title={`Filter: ${tag.tooltip}`}

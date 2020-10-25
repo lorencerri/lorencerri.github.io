@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
-export const AppHeaderTitle = styled.div`
+export const AppHeaderTitle = styled.span`
+    float: left;
     font-size: 40px;
     font-family: 'Kaushan Script', cursive;
 `;
 
 export const AppHeaderContainer = styled.div`
-    margin: 25px;
+    margin: 40px 0 25px 0;
+    width: min(1200px, 60%);
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 export const AppContainer = styled.div`
@@ -14,7 +18,6 @@ export const AppContainer = styled.div`
 `;
 
 export const AppHeader = styled.div`
-    background-color: #23272a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,12 +27,14 @@ export const AppHeader = styled.div`
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-color: transparent transparent;
-    margin-bottom: 25px;
-    box-shadow: 0px 2px 10px 0px black;
 `;
 
 export const ExternalItem = styled.span`
     margin: 0px 10px;
     font-size: 20px;
     font-family: 'Kaushan Script', cursive;
+`;
+
+export const AppHeaderItems = styled.span`
+    float: right;
 `;

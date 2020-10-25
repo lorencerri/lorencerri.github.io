@@ -5,6 +5,7 @@ import {
     AppHeader,
     AppHeaderContainer,
     AppHeaderTitle,
+    AppHeaderItems,
     ExternalItem,
 } from './AppStyles';
 
@@ -28,7 +29,7 @@ export const App = () => (
         <AppHeader>
             <AppHeaderContainer>
                 <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
-                {extItems}
+                <AppHeaderItems>{extItems}</AppHeaderItems>
             </AppHeaderContainer>
         </AppHeader>
         <Projects />
