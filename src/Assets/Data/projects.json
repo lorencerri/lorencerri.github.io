@@ -180,8 +180,8 @@
         "title": "Support",
         "tag": ["npm", "discord", "powercord"],
         "icon": "fas fa-heart",
-        "description": "I work on these projects in my spare time. If you'd like to help with development-related costs, feel free to do so via BuyMeACoffee!",
-        "language": { "text": "Coffee", "color": "#6f4e37" },
+        "description": "I work on these projects in my spare time, if you'd like to support me, you can do so via Patreon!",
+        "language": { "text": "Patreon", "color": "#f96854" },
         "link": "https://www.buymeacoffee.com/lorencerri",
         "isNotDefault": true
     }
