@@ -177,6 +177,21 @@
         ]
     },
     {
+        "title": "Spotify/Discord Data Viewer",
+        "tag": "website",
+        "icon": "fab fa-github",
+        "description": "A simple program that lets you view your Spotify & Discord data.",
+        "language": { "text": "React", "color": "#61dafb" },
+        "link": "https://data.plexidev.org",
+        "stats": [
+            {
+                "icon": "fas fa-calendar-alt",
+                "text": "June 22nd, 2021",
+                "alt": "Initial Release"
+            }
+        ]
+    },
+    {
         "title": "Support",
         "tag": ["npm", "discord", "powercord"],
         "icon": "fas fa-heart",
