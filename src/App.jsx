@@ -1,36 +1,25 @@
-import React from 'react';
+import logo from "./logo.svg";
+import styles from "./App.module.css";
 
-import {
-    AppContainer,
-    AppHeader,
-    AppHeaderContainer,
-    AppHeaderTitle,
-    ExternalItem,
-} from './AppStyles';
+function App() {
+    return (
+        <div class={styles.App}>
+            <header class={styles.header}>
+                <img src={logo} class={styles.logo} alt="logo" />
+                <p>
+                    Edit <code>src/App.jsx</code> and save to reload.
+                </p>
+                <a
+                    class={styles.link}
+                    href="https://github.com/solidjs/solid"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Learn Solid
+                </a>
+            </header>
+        </div>
+    );
+}
 
-import Projects from './Components/Projects';
-
-const external = [
-    ['https://github.com/lorencerri', 'GitHub'],
-    ['https://twitter.com/lorencerri', 'Twitter'],
-];
-
-const extItems = external.map((item, index) => (
-    <ExternalItem key={`external-${index}`}>
-        <a href={item[0]} target='_blank' rel='noopener noreferrer'>
-            {item[1]}
-        </a>
-    </ExternalItem>
-));
-
-export const App = () => (
-    <AppContainer>
-        <AppHeader>
-            <AppHeaderContainer>
-                <AppHeaderTitle>Loren Cerri</AppHeaderTitle>
-                {extItems}
-            </AppHeaderContainer>
-        </AppHeader>
-        <Projects />
-    </AppContainer>
-);
+export default App;
